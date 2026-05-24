@@ -25,6 +25,42 @@ function thanasOf(districtName, lang = 'en') {
   return [];
 }
 
+// জেলার থানা + পোস্টকোড সহ পান
+function thanasWithPostcodeOf(districtName, lang = 'en') {
+  for (const division of data.divisions) {
+    const district = division.districts.find(
+      d => d.name.toLowerCase() === districtName.toLowerCase() || d.bn === districtName
+    );
+    if (district) {
+      return district.thana.map(t => ({
+        name: lang === 'bn' ? t.bn : t.name,
+        postcode: t.postcode
+      }));
+    }
+  }
+  return [];
+}
+
+// পোস্টকোড দিয়ে থানা খোঁজা
+function findByPostcode(postcode) {
+  const results = [];
+  for (const division of data.divisions) {
+    for (const district of division.districts) {
+      for (const thana of district.thana) {
+        if (thana.postcode === postcode) {
+          results.push({
+            division: division.name, divisionBn: division.bn,
+            district: district.name, districtBn: district.bn,
+            thana: thana.name, thanaBn: thana.bn,
+            postcode: thana.postcode
+          });
+        }
+      }
+    }
+  }
+  return results;
+}
+
 // সব জেলা পান
 function allDistricts(lang = 'en') {
   return data.divisions.flatMap(d => d.districts.map(dist => lang === 'bn' ? dist.bn : dist.name));
@@ -34,6 +70,20 @@ function allDistricts(lang = 'en') {
 function allThanas(lang = 'en') {
   return data.divisions.flatMap(d =>
     d.districts.flatMap(dist => dist.thana.map(t => lang === 'bn' ? t.bn : t.name))
+  );
+}
+
+// সব থানা পোস্টকোড সহ
+function allThanasWithPostcode() {
+  return data.divisions.flatMap(d =>
+    d.districts.flatMap(dist =>
+      dist.thana.map(t => ({
+        division: d.name, divisionBn: d.bn,
+        district: dist.name, districtBn: dist.bn,
+        thana: t.name, thanaBn: t.bn,
+        postcode: t.postcode
+      }))
+    )
   );
 }
 
@@ -56,7 +106,12 @@ function search(query) {
       }
       for (const thana of district.thana) {
         if (thana.name.toLowerCase().includes(q) || thana.bn.includes(query)) {
-          results.push({ name: thana.name, bn: thana.bn, type: 'thana', district: district.name, districtBn: district.bn, division: division.name, divisionBn: division.bn });
+          results.push({
+            name: thana.name, bn: thana.bn, type: 'thana',
+            postcode: thana.postcode,
+            district: district.name, districtBn: district.bn,
+            division: division.name, divisionBn: division.bn
+          });
         }
       }
     }
@@ -68,8 +123,11 @@ module.exports = {
   allDivisions,
   allDistricts,
   allThanas,
+  allThanasWithPostcode,
   districtsOf,
   thanasOf,
+  thanasWithPostcodeOf,
+  findByPostcode,
   getAllData,
   search
 };
