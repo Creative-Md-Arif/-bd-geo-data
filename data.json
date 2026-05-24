@@ -1,997 +1,3217 @@
 {
-	"divisions": [
-		{
-			"name": "BARISAL",
-			"bn": "বরিশাল",
-			"districts": [
-				{
-					"name": "BARGUNA",
-					"bn": "বরগুনা",
-					"thana": [
-						{"name": "AMTALI", "bn": "আমতলী"},
-						{"name": "BAMNA", "bn": "বামনা"},
-						{"name": "BARGUNA SADAR", "bn": "বরগুনা সদর"},
-						{"name": "BETAGI", "bn": "বেতাগী"},
-						{"name": "PATHARGHATA", "bn": "পাথরঘাটা"},
-						{"name": "TALTALI", "bn": "তালতলী"}
-					]
-				},
-				{
-					"name": "BARISAL",
-					"bn": "বরিশাল",
-					"thana": [
-						{"name": "AGAILJHARA", "bn": "আগৈলঝাড়া"},
-						{"name": "BABUGANJ", "bn": "বাবুগঞ্জ"},
-						{"name": "BAKERGANJ", "bn": "বাকেরগঞ্জ"},
-						{"name": "BANARI PARA", "bn": "বানারীপাড়া"},
-						{"name": "BARISAL SADAR", "bn": "বরিশাল সদর"},
-						{"name": "GAURNADI", "bn": "গৌরনদী"},
-						{"name": "HIZLA", "bn": "হিজলা"},
-						{"name": "MHENDIGANJ", "bn": "মেহেন্দিগঞ্জ"},
-						{"name": "MULADI", "bn": "মুলাদী"},
-						{"name": "WAZIRPUR", "bn": "উজিরপুর"}
-					]
-				},
-				{
-					"name": "BHOLA",
-					"bn": "ভোলা",
-					"thana": [
-						{"name": "BHOLA SADAR", "bn": "ভোলা সদর"},
-						{"name": "BURHANUDDIN", "bn": "বোরহানউদ্দিন"},
-						{"name": "CHAR FASSON", "bn": "চরফ্যাশন"},
-						{"name": "DAULAT KHAN", "bn": "দৌলতখান"},
-						{"name": "LALMOHAN", "bn": "লালমোহন"},
-						{"name": "MANPURA", "bn": "মনপুরা"},
-						{"name": "TAZUMUDDIN", "bn": "তজুমদ্দিন"}
-					]
-				},
-				{
-					"name": "JHALOKATI",
-					"bn": "ঝালকাঠি",
-					"thana": [
-						{"name": "JHALOKATI SADAR", "bn": "ঝালকাঠি সদর"},
-						{"name": "KANTHALIA", "bn": "কাঁঠালিয়া"},
-						{"name": "NALCHITY", "bn": "নলছিটি"},
-						{"name": "RAJAPUR", "bn": "রাজাপুর"}
-					]
-				},
-				{
-					"name": "PATUAKHALI",
-					"bn": "পটুয়াখালী",
-					"thana": [
-						{"name": "BAUPHAL", "bn": "বাউফল"},
-						{"name": "DASHMINA", "bn": "দশমিনা"},
-						{"name": "DUMKI", "bn": "দুমকি"},
-						{"name": "GALACHIPA", "bn": "গলাচিপা"},
-						{"name": "KALAPARA", "bn": "কলাপাড়া"},
-						{"name": "MIRZAGANJ", "bn": "মির্জাগঞ্জ"},
-						{"name": "PATUAKHALI SADAR", "bn": "পটুয়াখালী সদর"},
-						{"name": "RANGABAL", "bn": "রাঙ্গাবালী"}
-					]
-				},
-				{
-					"name": "PIROJPUR",
-					"bn": "পিরোজপুর",
-					"thana": [
-						{"name": "BHANDARIA", "bn": "ভাণ্ডারিয়া"},
-						{"name": "KAWKHALI", "bn": "কাউখালী"},
-						{"name": "MATHBARIA", "bn": "মঠবাড়িয়া"},
-						{"name": "NAZIRPUR", "bn": "নাজিরপুর"},
-						{"name": "NESARABAD (SWARUPKATI)", "bn": "নেছারাবাদ (স্বরূপকাঠি)"},
-						{"name": "PIROJPUR SADAR", "bn": "পিরোজপুর সদর"},
-						{"name": "ZIANAGAR", "bn": "জিয়ানগর"}
-					]
-				}
-			]
-		},
-		{
-			"name": "CHITTAGONG",
-			"bn": "চট্টগ্রাম",
-			"districts": [
-				{
-					"name": "BANDARBAN",
-					"bn": "বান্দরবান",
-					"thana": [
-						{"name": "ALIKADAM", "bn": "আলীকদম"},
-						{"name": "BANDARBAN SADAR", "bn": "বান্দরবান সদর"},
-						{"name": "LAMA", "bn": "লামা"},
-						{"name": "NAIKHONGCHHARI", "bn": "নাইক্ষ্যংছড়ি"},
-						{"name": "ROWANGCHHARI", "bn": "রোয়াংছড়ি"},
-						{"name": "RUMA", "bn": "রুমা"},
-						{"name": "THANCHI", "bn": "থানচি"}
-					]
-				},
-				{
-					"name": "CHITTAGONG",
-					"bn": "চট্টগ্রাম",
-					"thana": [
-						{"name": "ANOWARA", "bn": "আনোয়ারা"},
-						{"name": "BAKALIA", "bn": "বাকলিয়া"},
-						{"name": "BANSHKHALI", "bn": "বাঁশখালী"},
-						{"name": "BAYEJID BOSTAMI", "bn": "বায়েজিদ বোস্তামি"},
-						{"name": "BOALKHALI", "bn": "বোয়ালখালী"},
-						{"name": "CHANDANAISH", "bn": "চন্দনাইশ"},
-						{"name": "CHANDGAON", "bn": "চান্দগাঁও"},
-						{"name": "CHITTAGONG PORT", "bn": "চট্টগ্রাম বন্দর"},
-						{"name": "DOUBLE MOORING", "bn": "ডবলমুরিং"},
-						{"name": "FATIKCHHARI", "bn": "ফটিকছড়ি"},
-						{"name": "HALISHAHAR", "bn": "হালিশহর"},
-						{"name": "HATHAZARI", "bn": "হাটহাজারী"},
-						{"name": "KHULSHI", "bn": "খুলশী"},
-						{"name": "KOTWALI", "bn": "কোতোয়ালী"},
-						{"name": "LOHAGARA", "bn": "লোহাগাড়া"},
-						{"name": "MIRSHARAI", "bn": "মীরসরাই"},
-						{"name": "PAHARTALI", "bn": "পাহাড়তলী"},
-						{"name": "PANCHLAISH", "bn": "পাঁচলাইশ"},
-						{"name": "PATENGA", "bn": "পতেঙ্গা"},
-						{"name": "PATIYA", "bn": "পটিয়া"},
-						{"name": "RANGUNIA", "bn": "রাঙ্গুনিয়া"},
-						{"name": "RAOZAN", "bn": "রাউজান"},
-						{"name": "SANDWIP", "bn": "সন্দ্বীপ"},
-						{"name": "SATKANIA", "bn": "সাতকানিয়া"},
-						{"name": "SITAKUNDA", "bn": "সীতাকুণ্ড"}
-					]
-				},
-				{
-					"name": "COX'S BAZAR",
-					"bn": "কক্সবাজার",
-					"thana": [
-						{"name": "CHAKARIA", "bn": "চকরিয়া"},
-						{"name": "COX'S BAZAR SADAR", "bn": "কক্সবাজার সদর"},
-						{"name": "KUTUBDIA", "bn": "কুতুবদিয়া"},
-						{"name": "MAHESHKHALI", "bn": "মহেশখালী"},
-						{"name": "PEKUA", "bn": "পেকুয়া"},
-						{"name": "RAMU", "bn": "রামু"},
-						{"name": "TEKNAF", "bn": "টেকনাফ"},
-						{"name": "UKHIA", "bn": "উখিয়া"}
-					]
-				},
-				{
-					"name": "KHAGRACHHARI",
-					"bn": "খাগড়াছড়ি",
-					"thana": [
-						{"name": "DIGHINALA", "bn": "দীঘিনালা"},
-						{"name": "KHAGRACHHARI SADAR", "bn": "খাগড়াছড়ি সদর"},
-						{"name": "LAKSHMICHHARI", "bn": "লক্ষ্মীছড়ি"},
-						{"name": "MAHALCHHARI", "bn": "মহালছড়ি"},
-						{"name": "MANIKCHHARI", "bn": "মানিকছড়ি"},
-						{"name": "MATIRANGA", "bn": "মাটিরাঙ্গা"},
-						{"name": "PANCHHARI", "bn": "পানছড়ি"},
-						{"name": "RAMGARH", "bn": "রামগড়"}
-					]
-				},
-				{
-					"name": "RANGAMATI",
-					"bn": "রাঙ্গামাটি",
-					"thana": [
-						{"name": "BAGHAICHHARI", "bn": "বাঘাইছড়ি"},
-						{"name": "BARKAL", "bn": "বরকল"},
-						{"name": "BELAI CHHARI", "bn": "বেলাইছড়ি"},
-						{"name": "JURAI CHHARI", "bn": "জুরাইছড়ি"},
-						{"name": "KAPTAI", "bn": "কাপ্তাই"},
-						{"name": "KAWKHALI (BETBUNIA)", "bn": "কাউখালী (বেতবুনিয়া)"},
-						{"name": "LANGADU", "bn": "লংগদু"},
-						{"name": "NANIARCHAR", "bn": "নানিয়ারচর"},
-						{"name": "RAJASTHALI", "bn": "রাজস্থলী"},
-						{"name": "RANGAMATI SADAR", "bn": "রাঙ্গামাটি সদর"}
-					]
-				}
-			]
-		},
-		{
-			"name": "COMILLA",
-			"bn": "কুমিল্লা",
-			"districts": [
-				{
-					"name": "BRAHMANBARIA",
-					"bn": "ব্রাহ্মণবাড়িয়া",
-					"thana": [
-						{"name": "AKHAURA", "bn": "আখাউড়া"},
-						{"name": "ASHUGANJ", "bn": "আশুগঞ্জ"},
-						{"name": "BANCHHARAMPUR", "bn": "বাঞ্ছারামপুর"},
-						{"name": "BIJOYNAGAR", "bn": "বিজয়নগর"},
-						{"name": "BRAHMANBARIA SADAR", "bn": "ব্রাহ্মণবাড়িয়া সদর"},
-						{"name": "KASBA", "bn": "কসবা"},
-						{"name": "NABINAGAR", "bn": "নবীনগর"},
-						{"name": "NASIRNAGAR", "bn": "নাসিরনগর"},
-						{"name": "SARAIL", "bn": "সরাইল"}
-					]
-				},
-				{
-					"name": "CHANDPUR",
-					"bn": "চাঁদপুর",
-					"thana": [
-						{"name": "CHANDPUR SADAR", "bn": "চাঁদপুর সদর"},
-						{"name": "FARIDGANJ", "bn": "ফরিদগঞ্জ"},
-						{"name": "HAIM CHAR", "bn": "হাইমচর"},
-						{"name": "HAJIGANJ", "bn": "হাজীগঞ্জ"},
-						{"name": "KACHUA", "bn": "কচুয়া"},
-						{"name": "MATLAB DAKSHIN", "bn": "মতলব দক্ষিণ"},
-						{"name": "MATLAB UTTAR", "bn": "মতলব উত্তর"},
-						{"name": "SHAHRASTI", "bn": "শাহরাস্তি"}
-					]
-				},
-				{
-					"name": "COMILLA",
-					"bn": "কুমিল্লা",
-					"thana": [
-						{"name": "BARURA", "bn": "বরুড়া"},
-						{"name": "BRAHMAN PARA", "bn": "ব্রাহ্মণপাড়া"},
-						{"name": "BURICHANG", "bn": "বুড়িচং"},
-						{"name": "CHANDINA", "bn": "চান্দিনা"},
-						{"name": "CHAUDDAGRAM", "bn": "চৌদ্দগ্রাম"},
-						{"name": "COMILLA ADARSHA SADAR", "bn": "কুমিল্লা আদর্শ সদর"},
-						{"name": "COMILLA SADAR DAKSHIN", "bn": "কুমিল্লা সদর দক্ষিণ"},
-						{"name": "DAUDKANDI", "bn": "দাউদকান্দি"},
-						{"name": "DEBIDWAR", "bn": "দেবিদ্বার"},
-						{"name": "HOMNA", "bn": "হোমনা"},
-						{"name": "LAKSAM", "bn": "লাকসাম"},
-						{"name": "MANOHARGANJ", "bn": "মনোহরগঞ্জ"},
-						{"name": "MEGHNA", "bn": "মেঘনা"},
-						{"name": "MURADNAGAR", "bn": "মুরাদনগর"},
-						{"name": "NANGALKOT", "bn": "নাঙ্গলকোট"},
-						{"name": "TITAS", "bn": "তিতাস"}
-					]
-				},
-				{
-					"name": "FENI",
-					"bn": "ফেনী",
-					"thana": [
-						{"name": "CHHAGALNAIYA", "bn": "ছাগলনাইয়া"},
-						{"name": "DAGANBHUIYAN", "bn": "দাগনভূঞা"},
-						{"name": "FENI SADAR", "bn": "ফেনী সদর"},
-						{"name": "FULGAZI", "bn": "ফুলগাজী"},
-						{"name": "PARSHURAM", "bn": "পরশুরাম"},
-						{"name": "SONAGAZI", "bn": "সোনাগাজী"}
-					]
-				},
-				{
-					"name": "LAKSHMIPUR",
-					"bn": "লক্ষ্মীপুর",
-					"thana": [
-						{"name": "KAMALNAGAR", "bn": "কমলনগর"},
-						{"name": "LAKSHMIPUR SADAR", "bn": "লক্ষ্মীপুর সদর"},
-						{"name": "RAMGANJ", "bn": "রামগঞ্জ"},
-						{"name": "RAMGATI", "bn": "রামগতি"},
-						{"name": "ROYPUR", "bn": "রায়পুর"}
-					]
-				},
-				{
-					"name": "NOAKHALI",
-					"bn": "নোয়াখালী",
-					"thana": [
-						{"name": "BEGUMGANJ", "bn": "বেগমগঞ্জ"},
-						{"name": "CHATKHIL", "bn": "চাটখিল"},
-						{"name": "COMPANIGANJ", "bn": "কোম্পানীগঞ্জ"},
-						{"name": "HATIYA", "bn": "হাতিয়া"},
-						{"name": "KABIRHAT", "bn": "কবিরহাট"},
-						{"name": "NOAKHALI SADAR", "bn": "নোয়াখালী সদর"},
-						{"name": "SENBAGH", "bn": "সেনবাগ"},
-						{"name": "SONAIMURI", "bn": "সোনাইমুড়ী"},
-						{"name": "SUBARNACHAR", "bn": "সুবর্ণচর"}
-					]
-				}
-			]
-		},
-		{
-			"name": "DHAKA",
-			"bn": "ঢাকা",
-			"districts": [
-				{
-					"name": "DHAKA",
-					"bn": "ঢাকা",
-					"thana": [
-						{"name": "ADABOR", "bn": "আদাবর"},
-						{"name": "BADDA", "bn": "বাড্ডা"},
-						{"name": "BANANI", "bn": "বনানী"},
-						{"name": "BANGSHAL", "bn": "বংশাল"},
-						{"name": "BHASAN TEK", "bn": "ভাষানটেক"},
-						{"name": "BHATARA", "bn": "ভাটারা"},
-						{"name": "BIMAN BANDAR", "bn": "বিমানবন্দর"},
-						{"name": "CANTONMENT", "bn": "ক্যান্টনমেন্ট"},
-						{"name": "CHAK BAZAR", "bn": "চকবাজার"},
-						{"name": "DAKSHINKHAN", "bn": "দক্ষিণখান"},
-						{"name": "DARUS SALAM", "bn": "দারুস সালাম"},
-						{"name": "DEMRA", "bn": "ডেমরা"},
-						{"name": "DHAMRAI", "bn": "ধামরাই"},
-						{"name": "DHANMONDI", "bn": "ধানমন্ডি"},
-						{"name": "DOHAR", "bn": "দোহার"},
-						{"name": "GENDARIA", "bn": "গেন্ডারিয়া"},
-						{"name": "GULSHAN", "bn": "গুলশান"},
-						{"name": "HAZARIBAGH", "bn": "হাজারিবাগ"},
-						{"name": "JATRABARI", "bn": "যাত্রাবাড়ী"},
-						{"name": "KADAMTALI", "bn": "কদমতলী"},
-						{"name": "KAFRUL", "bn": "কাফরুল"},
-						{"name": "KALABAGAN", "bn": "কলাবাগান"},
-						{"name": "KAMRANGIR CHAR", "bn": "কামরাঙ্গীরচর"},
-						{"name": "KERANIGANJ", "bn": "কেরানীগঞ্জ"},
-						{"name": "KHILGAON", "bn": "খিলগাঁও"},
-						{"name": "KHILKHET", "bn": "খিলক্ষেত"},
-						{"name": "KOTWALI", "bn": "কোতোয়ালী"},
-						{"name": "LALBAGH", "bn": "লালবাগ"},
-						{"name": "MIRPUR", "bn": "মিরপুর"},
-						{"name": "MOHAMMADPUR", "bn": "মোহাম্মদপুর"},
-						{"name": "MOTIJHEEL", "bn": "মতিঝিল"},
-						{"name": "MUGDA PARA", "bn": "মুগদা"},
-						{"name": "NAWABGANJ", "bn": "নবাবগঞ্জ"},
-						{"name": "NEW MARKET", "bn": "নিউ মার্কেট"},
-						{"name": "PALLABI", "bn": "পল্লবী"},
-						{"name": "PALTAN", "bn": "পল্টন"},
-						{"name": "RAMNA", "bn": "রমনা"},
-						{"name": "RAMPURA", "bn": "রামপুরা"},
-						{"name": "RUPNAGAR", "bn": "রূপনগর"},
-						{"name": "SABUJBAGH", "bn": "সবুজবাগ"},
-						{"name": "SAVAR", "bn": "সাভার"},
-						{"name": "SHAH ALI", "bn": "শাহ আলী"},
-						{"name": "SHAHBAGH", "bn": "শাহবাগ"},
-						{"name": "SHAHJAHANPUR", "bn": "শাহজাহানপুর"},
-						{"name": "SHER-E-BANGLA NAGAR", "bn": "শেরেবাংলা নগর"},
-						{"name": "SHYAMPUR", "bn": "শ্যামপুর"},
-						{"name": "SUTRAPUR", "bn": "সূত্রাপুর"},
-						{"name": "TEJGAON", "bn": "তেজগাঁও"},
-						{"name": "TEJGAON IND. AREA", "bn": "তেজগাঁও শিল্প এলাকা"},
-						{"name": "TURAG", "bn": "তুরাগ"},
-						{"name": "UTTAR KHAN", "bn": "উত্তরখান"},
-						{"name": "UTTARA PASCHIM", "bn": "উত্তরা পশ্চিম"},
-						{"name": "UTTARA PURBA", "bn": "উত্তরা পূর্ব"},
-						{"name": "WARI", "bn": "ওয়ারী"}
-					]
-				},
-				{
-					"name": "FARIDPUR",
-					"bn": "ফরিদপুর",
-					"thana": [
-						{"name": "ALFADANGA", "bn": "আলফাডাঙ্গা"},
-						{"name": "BHANGA", "bn": "ভাঙ্গা"},
-						{"name": "BOALMARI", "bn": "বোয়ালমারী"},
-						{"name": "CHAR BHADRASAN", "bn": "চরভদ্রাসন"},
-						{"name": "FARIDPUR SADAR", "bn": "ফরিদপুর সদর"},
-						{"name": "MADHUKHALI", "bn": "মধুখালী"},
-						{"name": "NAGARKANDA", "bn": "নগরকান্দা"},
-						{"name": "SADARPUR", "bn": "সদরপুর"},
-						{"name": "SALTHA", "bn": "সালথা"}
-					]
-				},
-				{
-					"name": "GAZIPUR",
-					"bn": "গাজীপুর",
-					"thana": [
-						{"name": "GAZIPUR SADAR", "bn": "গাজীপুর সদর"},
-						{"name": "KALIAKAIR", "bn": "কালিয়াকৈর"},
-						{"name": "KALIGANJ", "bn": "কালীগঞ্জ"},
-						{"name": "KAPASIA", "bn": "কাপাসিয়া"},
-						{"name": "SREEPUR", "bn": "শ্রীপুর"},
-						{"name": "TONGI", "bn": "টঙ্গী"}
-					]
-				},
-				{
-					"name": "GOPALGANJ",
-					"bn": "গোপালগঞ্জ",
-					"thana": [
-						{"name": "GOPALGANJ SADAR", "bn": "গোপালগঞ্জ সদর"},
-						{"name": "KASHIANI", "bn": "কাশিয়ানী"},
-						{"name": "KOTALIPARA", "bn": "কোটালীপাড়া"},
-						{"name": "MUKSUDPUR", "bn": "মুকসুদপুর"},
-						{"name": "TUNGIPARA", "bn": "টুঙ্গিপাড়া"}
-					]
-				},
-				{
-					"name": "MADARIPUR",
-					"bn": "মাদারীপুর",
-					"thana": [
-						{"name": "KALKINI", "bn": "কালকিনি"},
-						{"name": "MADARIPUR SADAR", "bn": "মাদারীপুর সদর"},
-						{"name": "RAJOIR", "bn": "রাজৈর"},
-						{"name": "SHIBCHAR", "bn": "শিবচর"}
-					]
-				},
-				{
-					"name": "MANIKGONJ",
-					"bn": "মানিকগঞ্জ",
-					"thana": [
-						{"name": "DAULATPUR", "bn": "দৌলতপুর"},
-						{"name": "GHIOR", "bn": "ঘিওর"},
-						{"name": "HARIRAMPUR", "bn": "হরিরামপুর"},
-						{"name": "MANIKGANJ SADAR", "bn": "মানিকগঞ্জ সদর"},
-						{"name": "SATURIA", "bn": "সাটুরিয়া"},
-						{"name": "SHIBALAYA", "bn": "শিবালয়"},
-						{"name": "SINGAIR", "bn": "সিংগাইর"}
-					]
-				},
-				{
-					"name": "MUNSHIGONJ",
-					"bn": "মুন্সীগঞ্জ",
-					"thana": [
-						{"name": "GAZARIA", "bn": "গজারিয়া"},
-						{"name": "LOHAJANG", "bn": "লৌহজং"},
-						{"name": "MUNSHIGANJ SADAR", "bn": "মুন্সীগঞ্জ সদর"},
-						{"name": "SERAJDIKHAN", "bn": "সিরাজদিখান"},
-						{"name": "SREENAGAR", "bn": "শ্রীনগর"},
-						{"name": "TONGIBARI", "bn": "টঙ্গীবাড়ী"}
-					]
-				},
-				{
-					"name": "NARAYANGANJ",
-					"bn": "নারায়ণগঞ্জ",
-					"thana": [
-						{"name": "ARAI HAZAR", "bn": "আড়াইহাজার"},
-						{"name": "BANDAR", "bn": "বন্দর"},
-						{"name": "NARAYANGANJ SADAR", "bn": "নারায়ণগঞ্জ সদর"},
-						{"name": "RUPGANJ", "bn": "রূপগঞ্জ"},
-						{"name": "SONARGAON", "bn": "সোনারগাঁও"}
-					]
-				},
-				{
-					"name": "NARSINGDI",
-					"bn": "নরসিংদী",
-					"thana": [
-						{"name": "BELABO", "bn": "বেলাবো"},
-						{"name": "MANOHARDI", "bn": "মনোহরদী"},
-						{"name": "NARSINGDI SADAR", "bn": "নরসিংদী সদর"},
-						{"name": "PALASH", "bn": "পলাশ"},
-						{"name": "ROYPURA", "bn": "রায়পুরা"},
-						{"name": "SHIBPUR", "bn": "শিবপুর"}
-					]
-				},
-				{
-					"name": "RAJBARI",
-					"bn": "রাজবাড়ী",
-					"thana": [
-						{"name": "BALIAKANDI", "bn": "বালিয়াকান্দি"},
-						{"name": "GOALANDA", "bn": "গোয়ালন্দ"},
-						{"name": "KALUKHALI", "bn": "কালুখালী"},
-						{"name": "PANGSHA", "bn": "পাংশা"},
-						{"name": "RAJBARI SADAR", "bn": "রাজবাড়ী সদর"}
-					]
-				},
-				{
-					"name": "SHARIATPUR",
-					"bn": "শরীয়তপুর",
-					"thana": [
-						{"name": "BHEDARGANJ", "bn": "ভেদরগঞ্জ"},
-						{"name": "DAMUDYA", "bn": "ডামুড্যা"},
-						{"name": "GOSAIRHAT", "bn": "গোসাইরহাট"},
-						{"name": "NARIA", "bn": "নড়িয়া"},
-						{"name": "SHARIATPUR SADAR", "bn": "শরীয়তপুর সদর"},
-						{"name": "ZANJIRA", "bn": "জাজিরা"}
-					]
-				}
-			]
-		},
-		{
-			"name": "KHULNA",
-			"bn": "খুলনা",
-			"districts": [
-				{
-					"name": "BAGERHAT",
-					"bn": "বাগেরহাট",
-					"thana": [
-						{"name": "BAGERHAT SADAR", "bn": "বাগেরহাট সদর"},
-						{"name": "CHITALMARI", "bn": "চিতলমারী"},
-						{"name": "FAKIRHAT", "bn": "ফকিরহাট"},
-						{"name": "KACHUA", "bn": "কচুয়া"},
-						{"name": "MOLLAHAT", "bn": "মোল্লাহাট"},
-						{"name": "MONGLA", "bn": "মোংলা"},
-						{"name": "MORRELGANJ", "bn": "মোরেলগঞ্জ"},
-						{"name": "RAMPAL", "bn": "রামপাল"},
-						{"name": "SARANKHOLA", "bn": "শরণখোলা"}
-					]
-				},
-				{
-					"name": "CHUADANGA",
-					"bn": "চুয়াডাঙ্গা",
-					"thana": [
-						{"name": "ALAMDANGA", "bn": "আলমডাঙ্গা"},
-						{"name": "CHUADANGA SADAR", "bn": "চুয়াডাঙ্গা সদর"},
-						{"name": "DAMURHUDA", "bn": "দামুড়হুদা"},
-						{"name": "JIBAN NAGAR", "bn": "জীবননগর"}
-					]
-				},
-				{
-					"name": "JESSORE",
-					"bn": "যশোর",
-					"thana": [
-						{"name": "ABHAYNAGAR", "bn": "অভয়নগর"},
-						{"name": "BAGHER PARA", "bn": "বাঘারপাড়া"},
-						{"name": "CHAUGACHHA", "bn": "চৌগাছা"},
-						{"name": "JESSORE SADAR", "bn": "যশোর সদর"},
-						{"name": "JHIKARGACHHA", "bn": "ঝিকরগাছা"},
-						{"name": "KESHABPUR", "bn": "কেশবপুর"},
-						{"name": "MANIRAMPUR", "bn": "মণিরামপুর"},
-						{"name": "SHARSHA", "bn": "শার্শা"}
-					]
-				},
-				{
-					"name": "JHENAIDAH",
-					"bn": "ঝিনাইদহ",
-					"thana": [
-						{"name": "HARINAKUNDA", "bn": "হরিণাকুণ্ডু"},
-						{"name": "JHENAIDAH SADAR", "bn": "ঝিনাইদহ সদর"},
-						{"name": "KALIGANJ", "bn": "কালীগঞ্জ"},
-						{"name": "KOTCHANDPUR", "bn": "কোটচাঁদপুর"},
-						{"name": "MAHESHPUR", "bn": "মহেশপুর"},
-						{"name": "SHAILKUPA", "bn": "শৈলকুপা"}
-					]
-				},
-				{
-					"name": "KHULNA",
-					"bn": "খুলনা",
-					"thana": [
-						{"name": "BATIAGHATA", "bn": "বটিয়াঘাটা"},
-						{"name": "DACOPE", "bn": "দাকোপ"},
-						{"name": "DAULATPUR", "bn": "দৌলতপুর"},
-						{"name": "DIGHALIA", "bn": "ডুমুরিয়া"},
-						{"name": "DUMURIA", "bn": "ডুমুরিয়া"},
-						{"name": "KHALISHPUR", "bn": "খালিশপুর"},
-						{"name": "KHAN JAHAN ALI", "bn": "খান জাহান আলী"},
-						{"name": "KHULNA SADAR", "bn": "খুলনা সদর"},
-						{"name": "KOYRA", "bn": "কয়রা"},
-						{"name": "PAIKGACHHA", "bn": "পাইকগাছা"},
-						{"name": "PHULTALA", "bn": "ফুলতলা"},
-						{"name": "RUPSA", "bn": "রূপসা"},
-						{"name": "SONADANGA", "bn": "সোনাডাঙ্গা"},
-						{"name": "TEROKHADA", "bn": "তেরখাদা"}
-					]
-				},
-				{
-					"name": "KUSHTIA",
-					"bn": "কুষ্টিয়া",
-					"thana": [
-						{"name": "BHERAMARA", "bn": "ভেড়ামারা"},
-						{"name": "DAULATPUR", "bn": "দৌলতপুর"},
-						{"name": "KHOKSA", "bn": "খোকসা"},
-						{"name": "KUMARKHALI", "bn": "কুমারখালী"},
-						{"name": "KUSHTIA SADAR", "bn": "কুষ্টিয়া সদর"},
-						{"name": "MIRPUR", "bn": "মিরপুর"}
-					]
-				},
-				{
-					"name": "MAGURA",
-					"bn": "মাগুরা",
-					"thana": [
-						{"name": "MAGURA SADAR", "bn": "মাগুরা সদর"},
-						{"name": "MOHAMMADPUR", "bn": "মহম্মদপুর"},
-						{"name": "SHALIKHA", "bn": "শালিখা"},
-						{"name": "SREEPUR", "bn": "শ্রীপুর"}
-					]
-				},
-				{
-					"name": "MEHERPUR",
-					"bn": "মেহেরপুর",
-					"thana": [
-						{"name": "GANGNI", "bn": "গাংনী"},
-						{"name": "MEHERPUR SADAR", "bn": "মেহেরপুর সদর"},
-						{"name": "MUJIB NAGAR", "bn": "মুজিবনগর"}
-					]
-				},
-				{
-					"name": "NARAIL",
-					"bn": "নড়াইল",
-					"thana": [
-						{"name": "KALIA", "bn": "কালিয়া"},
-						{"name": "LOHAGARA", "bn": "লোহাগড়া"},
-						{"name": "NARAIL SADAR", "bn": "নড়াইল সদর"}
-					]
-				},
-				{
-					"name": "SATKHIRA",
-					"bn": "সাতক্ষীরা",
-					"thana": [
-						{"name": "ASSASUNI", "bn": "আশাশুনি"},
-						{"name": "DEBHATA", "bn": "দেবহাটা"},
-						{"name": "KALAROA", "bn": "কলারোয়া"},
-						{"name": "KALIGANJ", "bn": "কালীগঞ্জ"},
-						{"name": "SATKHIRA SADAR", "bn": "সাতক্ষীরা সদর"},
-						{"name": "SHYAMNAGAR", "bn": "শ্যামনগর"},
-						{"name": "TALA", "bn": "তালা"}
-					]
-				}
-			]
-		},
-		{
-			"name": "MYMENSINGH",
-			"bn": "ময়মনসিংহ",
-			"districts": [
-				{
-					"name": "JAMALPUR",
-					"bn": "জামালপুর",
-					"thana": [
-						{"name": "BAKSHIGANJ", "bn": "বকশীগঞ্জ"},
-						{"name": "DEWANGANJ", "bn": "দেওয়ানগঞ্জ"},
-						{"name": "ISLAMPUR", "bn": "ইসলামপুর"},
-						{"name": "JAMALPUR SADAR", "bn": "জামালপুর সদর"},
-						{"name": "MADARGANJ", "bn": "মাদারগঞ্জ"},
-						{"name": "MELANDAHA", "bn": "মেলান্দহ"},
-						{"name": "SARISHABARI UPAZILA", "bn": "সরিষাবাড়ী"}
-					]
-				},
-				{
-					"name": "KISHOREGANJ",
-					"bn": "কিশোরগঞ্জ",
-					"thana": [
-						{"name": "AUSTAGRAM", "bn": "অষ্টগ্রাম"},
-						{"name": "BAJITPUR", "bn": "বাজিতপুর"},
-						{"name": "BHAIRAB", "bn": "ভৈরব"},
-						{"name": "HOSSAINPUR", "bn": "হোসেনপুর"},
-						{"name": "ITNA", "bn": "ইটনা"},
-						{"name": "KARIMGANJ", "bn": "করিমগঞ্জ"},
-						{"name": "KATIADI", "bn": "কটিয়াদী"},
-						{"name": "KISHOREGANJ SADAR", "bn": "কিশোরগঞ্জ সদর"},
-						{"name": "KULIAR CHAR", "bn": "কুলিয়ারচর"},
-						{"name": "MITHAMAIN", "bn": "মিঠামইন"},
-						{"name": "NIKLI", "bn": "নিকলী"},
-						{"name": "PAKUNDIA", "bn": "পাকুন্দিয়া"},
-						{"name": "TARAIL", "bn": "তাড়াইল"}
-					]
-				},
-				{
-					"name": "MYMENSINGH",
-					"bn": "ময়মনসিংহ",
-					"thana": [
-						{"name": "BHALUKA", "bn": "ভালুকা"},
-						{"name": "DHOBAURA", "bn": "ধোবাউড়া"},
-						{"name": "FULBARIA", "bn": "ফুলবাড়িয়া"},
-						{"name": "GAFFARGAON", "bn": "গফরগাঁও"},
-						{"name": "GAURIPUR", "bn": "গৌরীপুর"},
-						{"name": "HALUAGHAT", "bn": "হালুয়াঘাট"},
-						{"name": "ISHWARGANJ", "bn": "ঈশ্বরগঞ্জ"},
-						{"name": "MUKTAGACHHA", "bn": "মুক্তাগাছা"},
-						{"name": "MYMENSINGH SADAR", "bn": "ময়মনসিংহ সদর"},
-						{"name": "NANDAIL", "bn": "নান্দাইল"},
-						{"name": "PHULPUR", "bn": "ফুলপুর"},
-						{"name": "TRISHAL", "bn": "ত্রিশাল"}
-					]
-				},
-				{
-					"name": "NETROKONA",
-					"bn": "নেত্রকোনা",
-					"thana": [
-						{"name": "ATPARA", "bn": "আটপাড়া"},
-						{"name": "BARHATTA", "bn": "বারহাট্টা"},
-						{"name": "DURGAPUR", "bn": "দুর্গাপুর"},
-						{"name": "KALMAKANDA", "bn": "কলমাকান্দা"},
-						{"name": "KENDUA", "bn": "কেন্দুয়া"},
-						{"name": "KHALIAJURI", "bn": "খালিয়াজুড়ী"},
-						{"name": "MADAN", "bn": "মদন"},
-						{"name": "MOHANGANJ", "bn": "মোহনগঞ্জ"},
-						{"name": "NETROKONA SADAR", "bn": "নেত্রকোনা সদর"},
-						{"name": "PURBADHALA", "bn": "পূর্বধলা"}
-					]
-				},
-				{
-					"name": "SHERPUR",
-					"bn": "শেরপুর",
-					"thana": [
-						{"name": "JHENAIGATI", "bn": "ঝিনাইগাতী"},
-						{"name": "NAKLA", "bn": "নকলা"},
-						{"name": "NALITABARI", "bn": "নালিতাবাড়ী"},
-						{"name": "SHERPUR SADAR", "bn": "শেরপুর সদর"},
-						{"name": "SREEBARDI", "bn": "শ্রীবরদী"}
-					]
-				},
-				{
-					"name": "TANGAIL",
-					"bn": "টাঙ্গাইল",
-					"thana": [
-						{"name": "BASAIL", "bn": "বাসাইল"},
-						{"name": "BHUAPUR", "bn": "ভূঞাপুর"},
-						{"name": "DELDUAR", "bn": "দেলদুয়ার"},
-						{"name": "DHANBARI", "bn": "ধনবাড়ী"},
-						{"name": "GHATAIL", "bn": "ঘাটাইল"},
-						{"name": "GOPALPUR", "bn": "গোপালপুর"},
-						{"name": "KALIHATI", "bn": "কালিহাতী"},
-						{"name": "MADHUPUR", "bn": "মধুপুর"},
-						{"name": "MIRZAPUR", "bn": "মির্জাপুর"},
-						{"name": "NAGARPUR", "bn": "নাগরপুর"},
-						{"name": "SAKHIPUR", "bn": "সখিপুর"},
-						{"name": "TANGAIL SADAR", "bn": "টাঙ্গাইল সদর"}
-					]
-				}
-			]
-		},
-		{
-			"name": "RAJSHAHI",
-			"bn": "রাজশাহী",
-			"districts": [
-				{
-					"name": "BOGRA",
-					"bn": "বগুড়া",
-					"thana": [
-						{"name": "ADAMDIGHI", "bn": "আদমদীঘি"},
-						{"name": "BOGRA SADAR", "bn": "বগুড়া সদর"},
-						{"name": "DHUNAT", "bn": "ধুনট"},
-						{"name": "DHUPCHANCHIA", "bn": "দুপচাঁচিয়া"},
-						{"name": "GABTALI", "bn": "গাবতলী"},
-						{"name": "KAHALOO", "bn": "কাহালু"},
-						{"name": "NANDIGRAM", "bn": "নন্দীগ্রাম"},
-						{"name": "SARIAKANDI", "bn": "সারিয়াকান্দি"},
-						{"name": "SHAJAHANPUR", "bn": "শাজাহানপুর"},
-						{"name": "SHERPUR", "bn": "শেরপুর"},
-						{"name": "SHIBGANJ", "bn": "শিবগঞ্জ"},
-						{"name": "SONATOLA", "bn": "সোনাতলা"}
-					]
-				},
-				{
-					"name": "CHAPAI NABABGANJ",
-					"bn": "চাঁপাইনবাবগঞ্জ",
-					"thana": [
-						{"name": "BHOLAHAT", "bn": "ভোলাহাট"},
-						{"name": "CHAPAI NABABGANJ SADAR", "bn": "চাঁপাইনবাবগঞ্জ সদর"},
-						{"name": "GOMASTAPUR", "bn": "গোমস্তাপুর"},
-						{"name": "NACHOLE", "bn": "নাচোল"},
-						{"name": "SHIBGANJ", "bn": "শিবগঞ্জ"}
-					]
-				},
-				{
-					"name": "JOYPURHAT",
-					"bn": "জয়পুরহাট",
-					"thana": [
-						{"name": "AKKELPUR", "bn": "আক্কেলপুর"},
-						{"name": "JOYPURHAT SADAR", "bn": "জয়পুরহাট সদর"},
-						{"name": "KALAI", "bn": "কালাই"},
-						{"name": "KHETLAL", "bn": "ক্ষেতলাল"},
-						{"name": "PANCHBIBI", "bn": "পাঁচবিবি"}
-					]
-				},
-				{
-					"name": "NAOGAON",
-					"bn": "নওগাঁ",
-					"thana": [
-						{"name": "ATRAI", "bn": "আত্রাই"},
-						{"name": "BADALGACHHI", "bn": "বদলগাছী"},
-						{"name": "DHAMOIRHAT", "bn": "ধামইরহাট"},
-						{"name": "MAHADEBPUR", "bn": "মহাদেবপুর"},
-						{"name": "MANDA", "bn": "মান্দা"},
-						{"name": "NAOGAON SADAR", "bn": "নওগাঁ সদর"},
-						{"name": "NIAMATPUR", "bn": "নিয়ামতপুর"},
-						{"name": "PATNITALA", "bn": "পত্নীতলা"},
-						{"name": "PORSHA", "bn": "পোরশা"},
-						{"name": "RANINAGAR", "bn": "রাণীনগর"},
-						{"name": "SAPAHAR", "bn": "সাপাহার"}
-					]
-				},
-				{
-					"name": "NATORE",
-					"bn": "নাটোর",
-					"thana": [
-						{"name": "BAGATIPARA", "bn": "বাগাতিপাড়া"},
-						{"name": "BARAIGRAM", "bn": "বড়াইগ্রাম"},
-						{"name": "GURUDASPUR", "bn": "গুরুদাসপুর"},
-						{"name": "LALPUR", "bn": "লালপুর"},
-						{"name": "NATORE SADAR", "bn": "নাটোর সদর"},
-						{"name": "SINGRA", "bn": "সিংড়া"}
-					]
-				},
-				{
-					"name": "PABNA",
-					"bn": "পাবনা",
-					"thana": [
-						{"name": "ATGHARIA", "bn": "আটঘরিয়া"},
-						{"name": "BERA", "bn": "বেড়া"},
-						{"name": "BHANGURA", "bn": "ভাঙ্গুড়া"},
-						{"name": "CHATMOHAR", "bn": "চাটমোহর"},
-						{"name": "FARIDPUR", "bn": "ফরিদপুর"},
-						{"name": "ISHWARDI", "bn": "ঈশ্বরদী"},
-						{"name": "PABNA SADAR", "bn": "পাবনা সদর"},
-						{"name": "SANTHIA", "bn": "সাঁথিয়া"},
-						{"name": "SUJANAGAR", "bn": "সুজানগর"}
-					]
-				},
-				{
-					"name": "RAJSHAHI",
-					"bn": "রাজশাহী",
-					"thana": [
-						{"name": "BAGHA", "bn": "বাঘা"},
-						{"name": "BAGHMARA", "bn": "বাঘমারা"},
-						{"name": "BOALIA", "bn": "বোয়ালিয়া"},
-						{"name": "CHARGHAT", "bn": "চারঘাট"},
-						{"name": "DURGAPUR", "bn": "দুর্গাপুর"},
-						{"name": "GODAGARI", "bn": "গোদাগাড়ী"},
-						{"name": "MATIHAR", "bn": "মতিহার"},
-						{"name": "MOHANPUR", "bn": "মোহনপুর"},
-						{"name": "PABA", "bn": "পবা"},
-						{"name": "PUTHIA", "bn": "পুঠিয়া"},
-						{"name": "RAJPARA", "bn": "রাজপাড়া"},
-						{"name": "SHAH MAKHDUM", "bn": "শাহ মখদুম"},
-						{"name": "TANORE", "bn": "তানোর"}
-					]
-				},
-				{
-					"name": "SIRAJGANJ",
-					"bn": "সিরাজগঞ্জ",
-					"thana": [
-						{"name": "BELKUCHI", "bn": "বেলকুচি"},
-						{"name": "CHAUHALI", "bn": "চৌহালী"},
-						{"name": "KAMARKHANDA", "bn": "কামারখন্দ"},
-						{"name": "KAZIPUR", "bn": "কাজীপুর"},
-						{"name": "ROYGANJ", "bn": "রায়গঞ্জ"},
-						{"name": "SHAHJADPUR", "bn": "শাহজাদপুর"},
-						{"name": "SIRAJGANJ SADAR", "bn": "সিরাজগঞ্জ সদর"},
-						{"name": "TARASH", "bn": "তাড়াশ"},
-						{"name": "ULLAH PARA", "bn": "উল্লাপাড়া"}
-					]
-				}
-			]
-		},
-		{
-			"name": "RANGPUR",
-			"bn": "রংপুর",
-			"districts": [
-				{
-					"name": "DINAJPUR",
-					"bn": "দিনাজপুর",
-					"thana": [
-						{"name": "BIRAL", "bn": "বীরল"},
-						{"name": "BIRAMPUR", "bn": "বিরামপুর"},
-						{"name": "BIRGANJ", "bn": "বিরগঞ্জ"},
-						{"name": "BOCHAGANJ", "bn": "বোচাগঞ্জ"},
-						{"name": "CHIRIRBANDAR", "bn": "চিরিরবন্দর"},
-						{"name": "DINAJPUR SADAR", "bn": "দিনাজপুর সদর"},
-						{"name": "FULBARI", "bn": "ফুলবাড়ী"},
-						{"name": "GHORAGHAT", "bn": "ঘোড়াঘাট"},
-						{"name": "HAKIMPUR", "bn": "হাকিমপুর"},
-						{"name": "KAHAROLE", "bn": "কাহারোল"},
-						{"name": "KHANSAMA", "bn": "খানসামা"},
-						{"name": "NAWABGANJ", "bn": "নবাবগঞ্জ"},
-						{"name": "PARBATIPUR", "bn": "পার্বতীপুর"}
-					]
-				},
-				{
-					"name": "GAIBANDHA",
-					"bn": "গাইবান্ধা",
-					"thana": [
-						{"name": "FULCHHARI", "bn": "ফুলছড়ি"},
-						{"name": "GAIBANDHA SADAR", "bn": "গাইবান্ধা সদর"},
-						{"name": "GOBINDAGANJ", "bn": "গোবিন্দগঞ্জ"},
-						{"name": "PALASHBARI", "bn": "পলাশবাড়ী"},
-						{"name": "SADULLAPUR", "bn": "সাদুল্লাপুর"},
-						{"name": "SAGHATA", "bn": "সাঘাটা"},
-						{"name": "SUNDARGANJ", "bn": "সুন্দরগঞ্জ"}
-					]
-				},
-				{
-					"name": "KURIGRAM",
-					"bn": "কুড়িগ্রাম",
-					"thana": [
-						{"name": "BHURUNGAMARI", "bn": "ভুরুঙ্গামারী"},
-						{"name": "CHAR RAJIBPUR", "bn": "চর রাজিবপুর"},
-						{"name": "CHILMARI", "bn": "চিলমারী"},
-						{"name": "KURIGRAM SADAR", "bn": "কুড়িগ্রাম সদর"},
-						{"name": "NAGESHWARI", "bn": "নাগেশ্বরী"},
-						{"name": "PHULBARI", "bn": "ফুলবাড়ী"},
-						{"name": "RAJARHAT", "bn": "রাজারহাট"},
-						{"name": "RAUMARI", "bn": "রৌমারী"},
-						{"name": "ULIPUR", "bn": "উলিপুর"}
-					]
-				},
-				{
-					"name": "LALMONIRHAT",
-					"bn": "লালমনিরহাট",
-					"thana": [
-						{"name": "ADITMARI", "bn": "আদিতমারী"},
-						{"name": "HATIBANDHA", "bn": "হাতীবান্ধা"},
-						{"name": "KALIGANJ", "bn": "কালীগঞ্জ"},
-						{"name": "LALMONIRHAT SADAR", "bn": "লালমনিরহাট সদর"},
-						{"name": "PATGRAM", "bn": "পাটগ্রাম"}
-					]
-				},
-				{
-					"name": "NILPHAMARI",
-					"bn": "নীলফামারী",
-					"thana": [
-						{"name": "DIMLA", "bn": "ডিমলা"},
-						{"name": "DOMAR", "bn": "ডোমার"},
-						{"name": "JALDHAKA", "bn": "জলঢাকা"},
-						{"name": "KISHOREGANJ", "bn": "কিশোরগঞ্জ"},
-						{"name": "NILPHAMARI SADAR", "bn": "নীলফামারী সদর"},
-						{"name": "SAIDPUR", "bn": "সৈয়দপুর"}
-					]
-				},
-				{
-					"name": "PANCHAGARH",
-					"bn": "পঞ্চগড়",
-					"thana": [
-						{"name": "ATWARI", "bn": "আটোয়ারী"},
-						{"name": "BODA", "bn": "বোদা"},
-						{"name": "DEBIGANJ", "bn": "দেবীগঞ্জ"},
-						{"name": "PANCHAGARH SADAR", "bn": "পঞ্চগড় সদর"},
-						{"name": "TENTULIA", "bn": "তেঁতুলিয়া"}
-					]
-				},
-				{
-					"name": "RANGPUR",
-					"bn": "রংপুর",
-					"thana": [
-						{"name": "BADARGANJ", "bn": "বদরগঞ্জ"},
-						{"name": "GANGACHARA", "bn": "গঙ্গাচড়া"},
-						{"name": "KAUNIA", "bn": "কাউনিয়া"},
-						{"name": "MITHA PUKUR", "bn": "মিঠাপুকুর"},
-						{"name": "PIRGACHHA", "bn": "পীরগাছা"},
-						{"name": "PIRGANJ", "bn": "পীরগঞ্জ"},
-						{"name": "RANGPUR SADAR", "bn": "রংপুর সদর"},
-						{"name": "TARAGANJ", "bn": "তারাগঞ্জ"}
-					]
-				},
-				{
-					"name": "THAKURGAON",
-					"bn": "ঠাকুরগাঁও",
-					"thana": [
-						{"name": "BALIADANGI", "bn": "বালিয়াডাঙ্গী"},
-						{"name": "HARIPUR", "bn": "হরিপুর"},
-						{"name": "PIRGANJ", "bn": "পীরগঞ্জ"},
-						{"name": "RANISANKAIL", "bn": "রাণীশংকৈল"},
-						{"name": "THAKURGAON SADAR", "bn": "ঠাকুরগাঁও সদর"}
-					]
-				}
-			]
-		},
-		{
-			"name": "SYLHET",
-			"bn": "সিলেট",
-			"districts": [
-				{
-					"name": "HABIGANJ",
-					"bn": "হবিগঞ্জ",
-					"thana": [
-						{"name": "AJMIRIGANJ", "bn": "আজমিরীগঞ্জ"},
-						{"name": "BAHUBAL", "bn": "বাহুবল"},
-						{"name": "BANIACHONG", "bn": "বানিয়াচং"},
-						{"name": "CHUNARUGHAT", "bn": "চুনারুঘাট"},
-						{"name": "HABIGANJ SADAR", "bn": "হবিগঞ্জ সদর"},
-						{"name": "LAKHAI", "bn": "লাখাই"},
-						{"name": "MADHABPUR", "bn": "মাধবপুর"},
-						{"name": "NABIGANJ", "bn": "নবীগঞ্জ"}
-					]
-				},
-				{
-					"name": "MAULVIBAZAR",
-					"bn": "মৌলভীবাজার",
-					"thana": [
-						{"name": "BARLEKHA", "bn": "বড়লেখা"},
-						{"name": "JURI", "bn": "জুড়ী"},
-						{"name": "KAMALGANJ", "bn": "কমলগঞ্জ"},
-						{"name": "KULAURA", "bn": "কুলাউড়া"},
-						{"name": "MAULVIBAZAR SADAR", "bn": "মৌলভীবাজার সদর"},
-						{"name": "RAJNAGAR", "bn": "রাজনগর"},
-						{"name": "SREEMANGAL", "bn": "শ্রীমঙ্গল"}
-					]
-				},
-				{
-					"name": "SUNAMGANJ",
-					"bn": "সুনামগঞ্জ",
-					"thana": [
-						{"name": "CHHATAK", "bn": "ছাতক"},
-						{"name": "DAKSHIN SUNAMGANJ", "bn": "দক্ষিণ সুনামগঞ্জ"},
-						{"name": "DERAI", "bn": "দিরাই"},
-						{"name": "DHARAMPASHA", "bn": "ধর্মপাশা"},
-						{"name": "DOWARABAZAR", "bn": "দোয়ারাবাজার"},
-						{"name": "ISHWAMBARPUR", "bn": "ইসলামপুর"},
-						{"name": "JAGANNATHPUR", "bn": "জগন্নাথপুর"},
-						{"name": "JAMALGANJ", "bn": "জামালগঞ্জ"},
-						{"name": "SULLA", "bn": "শাল্লা"},
-						{"name": "SUNAMGANJ SADAR", "bn": "সুনামগঞ্জ সদর"},
-						{"name": "TAHIRPUR", "bn": "তাহিরপুর"}
-					]
-				},
-				{
-					"name": "SYLHET",
-					"bn": "সিলেট",
-					"thana": [
-						{"name": "BALAGANJ", "bn": "বালাগঞ্জ"},
-						{"name": "BEANI BAZAR", "bn": "বিয়ানীবাজার"},
-						{"name": "BISHWANATH", "bn": "বিশ্বনাথ"},
-						{"name": "COMPANIGANJ", "bn": "কোম্পানীগঞ্জ"},
-						{"name": "DAKSHIN SURMA", "bn": "দক্ষিণ সুরমা"},
-						{"name": "FENCHUGANJ", "bn": "ফেঞ্চুগঞ্জ"},
-						{"name": "GOLAPGANJ", "bn": "গোলাপগঞ্জ"},
-						{"name": "GOWAINGHAT", "bn": "গোয়াইনঘাট"},
-						{"name": "JAINTIAPUR", "bn": "জৈন্তাপুর"},
-						{"name": "KANAIGHAT", "bn": "কানাইঘাট"},
-						{"name": "SYLHET SADAR", "bn": "সিলেট সদর"},
-						{"name": "ZAKIGANJ", "bn": "জকিগঞ্জ"}
-					]
-				}
-			]
-		}
-	]
+  "divisions": [
+    {
+      "name": "BARISAL",
+      "bn": "বরিশাল",
+      "districts": [
+        {
+          "name": "BARGUNA",
+          "bn": "বরগুনা",
+          "thana": [
+            {
+              "name": "AMTALI",
+              "bn": "আমতলী",
+              "postcode": "8710"
+            },
+            {
+              "name": "BAMNA",
+              "bn": "বামনা",
+              "postcode": "8730"
+            },
+            {
+              "name": "BARGUNA SADAR",
+              "bn": "বরগুনা সদর",
+              "postcode": "8700"
+            },
+            {
+              "name": "BETAGI",
+              "bn": "বেতাগী",
+              "postcode": "8720"
+            },
+            {
+              "name": "PATHARGHATA",
+              "bn": "পাথরঘাটা",
+              "postcode": "8740"
+            },
+            {
+              "name": "TALTALI",
+              "bn": "তালতলী",
+              "postcode": "8750"
+            }
+          ]
+        },
+        {
+          "name": "BARISAL",
+          "bn": "বরিশাল",
+          "thana": [
+            {
+              "name": "AGAILJHARA",
+              "bn": "আগৈলঝাড়া",
+              "postcode": "8260"
+            },
+            {
+              "name": "BABUGANJ",
+              "bn": "বাবুগঞ্জ",
+              "postcode": "8210"
+            },
+            {
+              "name": "BAKERGANJ",
+              "bn": "বাকেরগঞ্জ",
+              "postcode": "8230"
+            },
+            {
+              "name": "BANARI PARA",
+              "bn": "বানারীপাড়া",
+              "postcode": "8270"
+            },
+            {
+              "name": "BARISAL SADAR",
+              "bn": "বরিশাল সদর",
+              "postcode": "8200"
+            },
+            {
+              "name": "GAURNADI",
+              "bn": "গৌরনদী",
+              "postcode": "8240"
+            },
+            {
+              "name": "HIZLA",
+              "bn": "হিজলা",
+              "postcode": "8290"
+            },
+            {
+              "name": "MHENDIGANJ",
+              "bn": "মেহেন্দিগঞ্জ",
+              "postcode": "8250"
+            },
+            {
+              "name": "MULADI",
+              "bn": "মুলাদী",
+              "postcode": "8280"
+            },
+            {
+              "name": "WAZIRPUR",
+              "bn": "উজিরপুর",
+              "postcode": "8220"
+            }
+          ]
+        },
+        {
+          "name": "BHOLA",
+          "bn": "ভোলা",
+          "thana": [
+            {
+              "name": "BHOLA SADAR",
+              "bn": "ভোলা সদর",
+              "postcode": "8300"
+            },
+            {
+              "name": "BURHANUDDIN",
+              "bn": "বোরহানউদ্দিন",
+              "postcode": "8320"
+            },
+            {
+              "name": "CHAR FASSON",
+              "bn": "চরফ্যাশন",
+              "postcode": "8350"
+            },
+            {
+              "name": "DAULAT KHAN",
+              "bn": "দৌলতখান",
+              "postcode": "8330"
+            },
+            {
+              "name": "LALMOHAN",
+              "bn": "লালমোহন",
+              "postcode": "8340"
+            },
+            {
+              "name": "MANPURA",
+              "bn": "মনপুরা",
+              "postcode": "8360"
+            },
+            {
+              "name": "TAZUMUDDIN",
+              "bn": "তজুমদ্দিন",
+              "postcode": "8310"
+            }
+          ]
+        },
+        {
+          "name": "JHALOKATI",
+          "bn": "ঝালকাঠি",
+          "thana": [
+            {
+              "name": "JHALOKATI SADAR",
+              "bn": "ঝালকাঠি সদর",
+              "postcode": "8400"
+            },
+            {
+              "name": "KANTHALIA",
+              "bn": "কাঁঠালিয়া",
+              "postcode": "8420"
+            },
+            {
+              "name": "NALCHITY",
+              "bn": "নলছিটি",
+              "postcode": "8410"
+            },
+            {
+              "name": "RAJAPUR",
+              "bn": "রাজাপুর",
+              "postcode": "8430"
+            }
+          ]
+        },
+        {
+          "name": "PATUAKHALI",
+          "bn": "পটুয়াখালী",
+          "thana": [
+            {
+              "name": "BAUPHAL",
+              "bn": "বাউফল",
+              "postcode": "8620"
+            },
+            {
+              "name": "DASHMINA",
+              "bn": "দশমিনা",
+              "postcode": "8630"
+            },
+            {
+              "name": "DUMKI",
+              "bn": "দুমকি",
+              "postcode": "8650"
+            },
+            {
+              "name": "GALACHIPA",
+              "bn": "গলাচিপা",
+              "postcode": "8640"
+            },
+            {
+              "name": "KALAPARA",
+              "bn": "কলাপাড়া",
+              "postcode": "8660"
+            },
+            {
+              "name": "MIRZAGANJ",
+              "bn": "মির্জাগঞ্জ",
+              "postcode": "8670"
+            },
+            {
+              "name": "PATUAKHALI SADAR",
+              "bn": "পটুয়াখালী সদর",
+              "postcode": "8600"
+            },
+            {
+              "name": "RANGABAL",
+              "bn": "রাঙ্গাবালী",
+              "postcode": "8610"
+            }
+          ]
+        },
+        {
+          "name": "PIROJPUR",
+          "bn": "পিরোজপুর",
+          "thana": [
+            {
+              "name": "BHANDARIA",
+              "bn": "ভাণ্ডারিয়া",
+              "postcode": "8530"
+            },
+            {
+              "name": "KAWKHALI",
+              "bn": "কাউখালী",
+              "postcode": "8520"
+            },
+            {
+              "name": "MATHBARIA",
+              "bn": "মঠবাড়িয়া",
+              "postcode": "8540"
+            },
+            {
+              "name": "NAZIRPUR",
+              "bn": "নাজিরপুর",
+              "postcode": "8510"
+            },
+            {
+              "name": "NESARABAD (SWARUPKATI)",
+              "bn": "নেছারাবাদ (স্বরূপকাঠি)",
+              "postcode": "8560"
+            },
+            {
+              "name": "PIROJPUR SADAR",
+              "bn": "পিরোজপুর সদর",
+              "postcode": "8500"
+            },
+            {
+              "name": "ZIANAGAR",
+              "bn": "জিয়ানগর",
+              "postcode": "8550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CHITTAGONG",
+      "bn": "চট্টগ্রাম",
+      "districts": [
+        {
+          "name": "BANDARBAN",
+          "bn": "বান্দরবান",
+          "thana": [
+            {
+              "name": "ALIKADAM",
+              "bn": "আলীকদম",
+              "postcode": "4650"
+            },
+            {
+              "name": "BANDARBAN SADAR",
+              "bn": "বান্দরবান সদর",
+              "postcode": "4600"
+            },
+            {
+              "name": "LAMA",
+              "bn": "লামা",
+              "postcode": "4640"
+            },
+            {
+              "name": "NAIKHONGCHHARI",
+              "bn": "নাইক্ষ্যংছড়ি",
+              "postcode": "4660"
+            },
+            {
+              "name": "ROWANGCHHARI",
+              "bn": "রোয়াংছড়ি",
+              "postcode": "4620"
+            },
+            {
+              "name": "RUMA",
+              "bn": "রুমা",
+              "postcode": "4630"
+            },
+            {
+              "name": "THANCHI",
+              "bn": "থানচি",
+              "postcode": "4610"
+            }
+          ]
+        },
+        {
+          "name": "CHITTAGONG",
+          "bn": "চট্টগ্রাম",
+          "thana": [
+            {
+              "name": "ANOWARA",
+              "bn": "আনোয়ারা",
+              "postcode": "4376"
+            },
+            {
+              "name": "BAKALIA",
+              "bn": "বাকলিয়া",
+              "postcode": "4000"
+            },
+            {
+              "name": "BANSHKHALI",
+              "bn": "বাঁশখালী",
+              "postcode": "4390"
+            },
+            {
+              "name": "BAYEJID BOSTAMI",
+              "bn": "বায়েজিদ বোস্তামি",
+              "postcode": "4210"
+            },
+            {
+              "name": "BOALKHALI",
+              "bn": "বোয়ালখালী",
+              "postcode": "4380"
+            },
+            {
+              "name": "CHANDANAISH",
+              "bn": "চন্দনাইশ",
+              "postcode": "4370"
+            },
+            {
+              "name": "CHANDGAON",
+              "bn": "চান্দগাঁও",
+              "postcode": "4212"
+            },
+            {
+              "name": "CHITTAGONG PORT",
+              "bn": "চট্টগ্রাম বন্দর",
+              "postcode": "4100"
+            },
+            {
+              "name": "DOUBLE MOORING",
+              "bn": "ডবলমুরিং",
+              "postcode": "4000"
+            },
+            {
+              "name": "FATIKCHHARI",
+              "bn": "ফটিকছড়ি",
+              "postcode": "4350"
+            },
+            {
+              "name": "HALISHAHAR",
+              "bn": "হালিশহর",
+              "postcode": "4216"
+            },
+            {
+              "name": "HATHAZARI",
+              "bn": "হাটহাজারী",
+              "postcode": "4330"
+            },
+            {
+              "name": "KHULSHI",
+              "bn": "খুলশী",
+              "postcode": "4209"
+            },
+            {
+              "name": "KOTWALI",
+              "bn": "কোতোয়ালী",
+              "postcode": "4000"
+            },
+            {
+              "name": "LOHAGARA",
+              "bn": "লোহাগাড়া",
+              "postcode": "4396"
+            },
+            {
+              "name": "MIRSHARAI",
+              "bn": "মীরসরাই",
+              "postcode": "4320"
+            },
+            {
+              "name": "PAHARTALI",
+              "bn": "পাহাড়তলী",
+              "postcode": "4202"
+            },
+            {
+              "name": "PANCHLAISH",
+              "bn": "পাঁচলাইশ",
+              "postcode": "4203"
+            },
+            {
+              "name": "PATENGA",
+              "bn": "পতেঙ্গা",
+              "postcode": "4204"
+            },
+            {
+              "name": "PATIYA",
+              "bn": "পটিয়া",
+              "postcode": "4370"
+            },
+            {
+              "name": "RANGUNIA",
+              "bn": "রাঙ্গুনিয়া",
+              "postcode": "4360"
+            },
+            {
+              "name": "RAOZAN",
+              "bn": "রাউজান",
+              "postcode": "4340"
+            },
+            {
+              "name": "SANDWIP",
+              "bn": "সন্দ্বীপ",
+              "postcode": "4310"
+            },
+            {
+              "name": "SATKANIA",
+              "bn": "সাতকানিয়া",
+              "postcode": "4392"
+            },
+            {
+              "name": "SITAKUNDA",
+              "bn": "সীতাকুণ্ড",
+              "postcode": "4310"
+            }
+          ]
+        },
+        {
+          "name": "COX'S BAZAR",
+          "bn": "কক্সবাজার",
+          "thana": [
+            {
+              "name": "CHAKARIA",
+              "bn": "চকরিয়া",
+              "postcode": "4760"
+            },
+            {
+              "name": "COX'S BAZAR SADAR",
+              "bn": "কক্সবাজার সদর",
+              "postcode": "4700"
+            },
+            {
+              "name": "KUTUBDIA",
+              "bn": "কুতুবদিয়া",
+              "postcode": "4790"
+            },
+            {
+              "name": "MAHESHKHALI",
+              "bn": "মহেশখালী",
+              "postcode": "4780"
+            },
+            {
+              "name": "PEKUA",
+              "bn": "পেকুয়া",
+              "postcode": "4770"
+            },
+            {
+              "name": "RAMU",
+              "bn": "রামু",
+              "postcode": "4730"
+            },
+            {
+              "name": "TEKNAF",
+              "bn": "টেকনাফ",
+              "postcode": "4750"
+            },
+            {
+              "name": "UKHIA",
+              "bn": "উখিয়া",
+              "postcode": "4740"
+            }
+          ]
+        },
+        {
+          "name": "KHAGRACHHARI",
+          "bn": "খাগড়াছড়ি",
+          "thana": [
+            {
+              "name": "DIGHINALA",
+              "bn": "দীঘিনালা",
+              "postcode": "4450"
+            },
+            {
+              "name": "KHAGRACHHARI SADAR",
+              "bn": "খাগড়াছড়ি সদর",
+              "postcode": "4400"
+            },
+            {
+              "name": "LAKSHMICHHARI",
+              "bn": "লক্ষ্মীছড়ি",
+              "postcode": "4440"
+            },
+            {
+              "name": "MAHALCHHARI",
+              "bn": "মহালছড়ি",
+              "postcode": "4430"
+            },
+            {
+              "name": "MANIKCHHARI",
+              "bn": "মানিকছড়ি",
+              "postcode": "4420"
+            },
+            {
+              "name": "MATIRANGA",
+              "bn": "মাটিরাঙ্গা",
+              "postcode": "4410"
+            },
+            {
+              "name": "PANCHHARI",
+              "bn": "পানছড়ি",
+              "postcode": "4460"
+            },
+            {
+              "name": "RAMGARH",
+              "bn": "রামগড়",
+              "postcode": "4470"
+            }
+          ]
+        },
+        {
+          "name": "RANGAMATI",
+          "bn": "রাঙ্গামাটি",
+          "thana": [
+            {
+              "name": "BAGHAICHHARI",
+              "bn": "বাঘাইছড়ি",
+              "postcode": "4540"
+            },
+            {
+              "name": "BARKAL",
+              "bn": "বরকল",
+              "postcode": "4560"
+            },
+            {
+              "name": "BELAI CHHARI",
+              "bn": "বেলাইছড়ি",
+              "postcode": "4570"
+            },
+            {
+              "name": "JURAI CHHARI",
+              "bn": "জুরাইছড়ি",
+              "postcode": "4580"
+            },
+            {
+              "name": "KAPTAI",
+              "bn": "কাপ্তাই",
+              "postcode": "4530"
+            },
+            {
+              "name": "KAWKHALI (BETBUNIA)",
+              "bn": "কাউখালী (বেতবুনিয়া)",
+              "postcode": "4520"
+            },
+            {
+              "name": "LANGADU",
+              "bn": "লংগদু",
+              "postcode": "4550"
+            },
+            {
+              "name": "NANIARCHAR",
+              "bn": "নানিয়ারচর",
+              "postcode": "4510"
+            },
+            {
+              "name": "RAJASTHALI",
+              "bn": "রাজস্থলী",
+              "postcode": "4590"
+            },
+            {
+              "name": "RANGAMATI SADAR",
+              "bn": "রাঙ্গামাটি সদর",
+              "postcode": "4500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "COMILLA",
+      "bn": "কুমিল্লা",
+      "districts": [
+        {
+          "name": "BRAHMANBARIA",
+          "bn": "ব্রাহ্মণবাড়িয়া",
+          "thana": [
+            {
+              "name": "AKHAURA",
+              "bn": "আখাউড়া",
+              "postcode": "3450"
+            },
+            {
+              "name": "ASHUGANJ",
+              "bn": "আশুগঞ্জ",
+              "postcode": "3402"
+            },
+            {
+              "name": "BANCHHARAMPUR",
+              "bn": "বাঞ্ছারামপুর",
+              "postcode": "3430"
+            },
+            {
+              "name": "BIJOYNAGAR",
+              "bn": "বিজয়নগর",
+              "postcode": "3460"
+            },
+            {
+              "name": "BRAHMANBARIA SADAR",
+              "bn": "ব্রাহ্মণবাড়িয়া সদর",
+              "postcode": "3400"
+            },
+            {
+              "name": "KASBA",
+              "bn": "কসবা",
+              "postcode": "3440"
+            },
+            {
+              "name": "NABINAGAR",
+              "bn": "নবীনগর",
+              "postcode": "3410"
+            },
+            {
+              "name": "NASIRNAGAR",
+              "bn": "নাসিরনগর",
+              "postcode": "3420"
+            },
+            {
+              "name": "SARAIL",
+              "bn": "সরাইল",
+              "postcode": "3470"
+            }
+          ]
+        },
+        {
+          "name": "CHANDPUR",
+          "bn": "চাঁদপুর",
+          "thana": [
+            {
+              "name": "CHANDPUR SADAR",
+              "bn": "চাঁদপুর সদর",
+              "postcode": "3600"
+            },
+            {
+              "name": "FARIDGANJ",
+              "bn": "ফরিদগঞ্জ",
+              "postcode": "3610"
+            },
+            {
+              "name": "HAIM CHAR",
+              "bn": "হাইমচর",
+              "postcode": "3670"
+            },
+            {
+              "name": "HAJIGANJ",
+              "bn": "হাজীগঞ্জ",
+              "postcode": "3620"
+            },
+            {
+              "name": "KACHUA",
+              "bn": "কচুয়া",
+              "postcode": "3640"
+            },
+            {
+              "name": "MATLAB DAKSHIN",
+              "bn": "মতলব দক্ষিণ",
+              "postcode": "3660"
+            },
+            {
+              "name": "MATLAB UTTAR",
+              "bn": "মতলব উত্তর",
+              "postcode": "3650"
+            },
+            {
+              "name": "SHAHRASTI",
+              "bn": "শাহরাস্তি",
+              "postcode": "3630"
+            }
+          ]
+        },
+        {
+          "name": "COMILLA",
+          "bn": "কুমিল্লা",
+          "thana": [
+            {
+              "name": "BARURA",
+              "bn": "বরুড়া",
+              "postcode": "3560"
+            },
+            {
+              "name": "BRAHMAN PARA",
+              "bn": "ব্রাহ্মণপাড়া",
+              "postcode": "3520"
+            },
+            {
+              "name": "BURICHANG",
+              "bn": "বুড়িচং",
+              "postcode": "3510"
+            },
+            {
+              "name": "CHANDINA",
+              "bn": "চান্দিনা",
+              "postcode": "3530"
+            },
+            {
+              "name": "CHAUDDAGRAM",
+              "bn": "চৌদ্দগ্রাম",
+              "postcode": "3570"
+            },
+            {
+              "name": "COMILLA ADARSHA SADAR",
+              "bn": "কুমিল্লা আদর্শ সদর",
+              "postcode": "3500"
+            },
+            {
+              "name": "COMILLA SADAR DAKSHIN",
+              "bn": "কুমিল্লা সদর দক্ষিণ",
+              "postcode": "3503"
+            },
+            {
+              "name": "DAUDKANDI",
+              "bn": "দাউদকান্দি",
+              "postcode": "3514"
+            },
+            {
+              "name": "DEBIDWAR",
+              "bn": "দেবিদ্বার",
+              "postcode": "3540"
+            },
+            {
+              "name": "HOMNA",
+              "bn": "হোমনা",
+              "postcode": "3516"
+            },
+            {
+              "name": "LAKSAM",
+              "bn": "লাকসাম",
+              "postcode": "3570"
+            },
+            {
+              "name": "MANOHARGANJ",
+              "bn": "মনোহরগঞ্জ",
+              "postcode": "3580"
+            },
+            {
+              "name": "MEGHNA",
+              "bn": "মেঘনা",
+              "postcode": "3518"
+            },
+            {
+              "name": "MURADNAGAR",
+              "bn": "মুরাদনগর",
+              "postcode": "3550"
+            },
+            {
+              "name": "NANGALKOT",
+              "bn": "নাঙ্গলকোট",
+              "postcode": "3590"
+            },
+            {
+              "name": "TITAS",
+              "bn": "তিতাস",
+              "postcode": "3512"
+            }
+          ]
+        },
+        {
+          "name": "FENI",
+          "bn": "ফেনী",
+          "thana": [
+            {
+              "name": "CHHAGALNAIYA",
+              "bn": "ছাগলনাইয়া",
+              "postcode": "3910"
+            },
+            {
+              "name": "DAGANBHUIYAN",
+              "bn": "দাগনভূঞা",
+              "postcode": "3920"
+            },
+            {
+              "name": "FENI SADAR",
+              "bn": "ফেনী সদর",
+              "postcode": "3900"
+            },
+            {
+              "name": "FULGAZI",
+              "bn": "ফুলগাজী",
+              "postcode": "3930"
+            },
+            {
+              "name": "PARSHURAM",
+              "bn": "পরশুরাম",
+              "postcode": "3940"
+            },
+            {
+              "name": "SONAGAZI",
+              "bn": "সোনাগাজী",
+              "postcode": "3950"
+            }
+          ]
+        },
+        {
+          "name": "LAKSHMIPUR",
+          "bn": "লক্ষ্মীপুর",
+          "thana": [
+            {
+              "name": "KAMALNAGAR",
+              "bn": "কমলনগর",
+              "postcode": "3740"
+            },
+            {
+              "name": "LAKSHMIPUR SADAR",
+              "bn": "লক্ষ্মীপুর সদর",
+              "postcode": "3700"
+            },
+            {
+              "name": "RAMGANJ",
+              "bn": "রামগঞ্জ",
+              "postcode": "3720"
+            },
+            {
+              "name": "RAMGATI",
+              "bn": "রামগতি",
+              "postcode": "3730"
+            },
+            {
+              "name": "ROYPUR",
+              "bn": "রায়পুর",
+              "postcode": "3710"
+            }
+          ]
+        },
+        {
+          "name": "NOAKHALI",
+          "bn": "নোয়াখালী",
+          "thana": [
+            {
+              "name": "BEGUMGANJ",
+              "bn": "বেগমগঞ্জ",
+              "postcode": "3820"
+            },
+            {
+              "name": "CHATKHIL",
+              "bn": "চাটখিল",
+              "postcode": "3870"
+            },
+            {
+              "name": "COMPANIGANJ",
+              "bn": "কোম্পানীগঞ্জ",
+              "postcode": "3850"
+            },
+            {
+              "name": "HATIYA",
+              "bn": "হাতিয়া",
+              "postcode": "3890"
+            },
+            {
+              "name": "KABIRHAT",
+              "bn": "কবিরহাট",
+              "postcode": "3810"
+            },
+            {
+              "name": "NOAKHALI SADAR",
+              "bn": "নোয়াখালী সদর",
+              "postcode": "3800"
+            },
+            {
+              "name": "SENBAGH",
+              "bn": "সেনবাগ",
+              "postcode": "3840"
+            },
+            {
+              "name": "SONAIMURI",
+              "bn": "সোনাইমুড়ী",
+              "postcode": "3830"
+            },
+            {
+              "name": "SUBARNACHAR",
+              "bn": "সুবর্ণচর",
+              "postcode": "3860"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DHAKA",
+      "bn": "ঢাকা",
+      "districts": [
+        {
+          "name": "DHAKA",
+          "bn": "ঢাকা",
+          "thana": [
+            {
+              "name": "ADABOR",
+              "bn": "আদাবর",
+              "postcode": "1207"
+            },
+            {
+              "name": "BADDA",
+              "bn": "বাড্ডা",
+              "postcode": "1212"
+            },
+            {
+              "name": "BANANI",
+              "bn": "বনানী",
+              "postcode": "1213"
+            },
+            {
+              "name": "BANGSHAL",
+              "bn": "বংশাল",
+              "postcode": "1100"
+            },
+            {
+              "name": "BHASAN TEK",
+              "bn": "ভাষানটেক",
+              "postcode": "1100"
+            },
+            {
+              "name": "BHATARA",
+              "bn": "ভাটারা",
+              "postcode": "1212"
+            },
+            {
+              "name": "BIMAN BANDAR",
+              "bn": "বিমানবন্দর",
+              "postcode": "1229"
+            },
+            {
+              "name": "CANTONMENT",
+              "bn": "ক্যান্টনমেন্ট",
+              "postcode": "1206"
+            },
+            {
+              "name": "CHAK BAZAR",
+              "bn": "চকবাজার",
+              "postcode": "1211"
+            },
+            {
+              "name": "DAKSHINKHAN",
+              "bn": "দক্ষিণখান",
+              "postcode": "1230"
+            },
+            {
+              "name": "DARUS SALAM",
+              "bn": "দারুস সালাম",
+              "postcode": "1216"
+            },
+            {
+              "name": "DEMRA",
+              "bn": "ডেমরা",
+              "postcode": "1361"
+            },
+            {
+              "name": "DHAMRAI",
+              "bn": "ধামরাই",
+              "postcode": "1350"
+            },
+            {
+              "name": "DHANMONDI",
+              "bn": "ধানমন্ডি",
+              "postcode": "1209"
+            },
+            {
+              "name": "DOHAR",
+              "bn": "দোহার",
+              "postcode": "1330"
+            },
+            {
+              "name": "GENDARIA",
+              "bn": "গেন্ডারিয়া",
+              "postcode": "1100"
+            },
+            {
+              "name": "GULSHAN",
+              "bn": "গুলশান",
+              "postcode": "1212"
+            },
+            {
+              "name": "HAZARIBAGH",
+              "bn": "হাজারিবাগ",
+              "postcode": "1209"
+            },
+            {
+              "name": "JATRABARI",
+              "bn": "যাত্রাবাড়ী",
+              "postcode": "1204"
+            },
+            {
+              "name": "KADAMTALI",
+              "bn": "কদমতলী",
+              "postcode": "1100"
+            },
+            {
+              "name": "KAFRUL",
+              "bn": "কাফরুল",
+              "postcode": "1216"
+            },
+            {
+              "name": "KALABAGAN",
+              "bn": "কলাবাগান",
+              "postcode": "1205"
+            },
+            {
+              "name": "KAMRANGIR CHAR",
+              "bn": "কামরাঙ্গীরচর",
+              "postcode": "1211"
+            },
+            {
+              "name": "KERANIGANJ",
+              "bn": "কেরানীগঞ্জ",
+              "postcode": "1310"
+            },
+            {
+              "name": "KHILGAON",
+              "bn": "খিলগাঁও",
+              "postcode": "1219"
+            },
+            {
+              "name": "KHILKHET",
+              "bn": "খিলক্ষেত",
+              "postcode": "1229"
+            },
+            {
+              "name": "KOTWALI",
+              "bn": "কোতোয়ালী",
+              "postcode": "1100"
+            },
+            {
+              "name": "LALBAGH",
+              "bn": "লালবাগ",
+              "postcode": "1211"
+            },
+            {
+              "name": "MIRPUR",
+              "bn": "মিরপুর",
+              "postcode": "1216"
+            },
+            {
+              "name": "MOHAMMADPUR",
+              "bn": "মোহাম্মদপুর",
+              "postcode": "1207"
+            },
+            {
+              "name": "MOTIJHEEL",
+              "bn": "মতিঝিল",
+              "postcode": "1000"
+            },
+            {
+              "name": "MUGDA PARA",
+              "bn": "মুগদা",
+              "postcode": "1214"
+            },
+            {
+              "name": "NAWABGANJ",
+              "bn": "নবাবগঞ্জ",
+              "postcode": "1320"
+            },
+            {
+              "name": "NEW MARKET",
+              "bn": "নিউ মার্কেট",
+              "postcode": "1205"
+            },
+            {
+              "name": "PALLABI",
+              "bn": "পল্লবী",
+              "postcode": "1216"
+            },
+            {
+              "name": "PALTAN",
+              "bn": "পল্টন",
+              "postcode": "1000"
+            },
+            {
+              "name": "RAMNA",
+              "bn": "রমনা",
+              "postcode": "1217"
+            },
+            {
+              "name": "RAMPURA",
+              "bn": "রামপুরা",
+              "postcode": "1219"
+            },
+            {
+              "name": "RUPNAGAR",
+              "bn": "রূপনগর",
+              "postcode": "1216"
+            },
+            {
+              "name": "SABUJBAGH",
+              "bn": "সবুজবাগ",
+              "postcode": "1214"
+            },
+            {
+              "name": "SAVAR",
+              "bn": "সাভার",
+              "postcode": "1340"
+            },
+            {
+              "name": "SHAH ALI",
+              "bn": "শাহ আলী",
+              "postcode": "1216"
+            },
+            {
+              "name": "SHAHBAGH",
+              "bn": "শাহবাগ",
+              "postcode": "1000"
+            },
+            {
+              "name": "SHAHJAHANPUR",
+              "bn": "শাহজাহানপুর",
+              "postcode": "1217"
+            },
+            {
+              "name": "SHER-E-BANGLA NAGAR",
+              "bn": "শেরেবাংলা নগর",
+              "postcode": "1207"
+            },
+            {
+              "name": "SHYAMPUR",
+              "bn": "শ্যামপুর",
+              "postcode": "1204"
+            },
+            {
+              "name": "SUTRAPUR",
+              "bn": "সূত্রাপুর",
+              "postcode": "1100"
+            },
+            {
+              "name": "TEJGAON",
+              "bn": "তেজগাঁও",
+              "postcode": "1208"
+            },
+            {
+              "name": "TEJGAON IND. AREA",
+              "bn": "তেজগাঁও শিল্প এলাকা",
+              "postcode": "1208"
+            },
+            {
+              "name": "TURAG",
+              "bn": "তুরাগ",
+              "postcode": "1230"
+            },
+            {
+              "name": "UTTAR KHAN",
+              "bn": "উত্তরখান",
+              "postcode": "1230"
+            },
+            {
+              "name": "UTTARA PASCHIM",
+              "bn": "উত্তরা পশ্চিম",
+              "postcode": "1230"
+            },
+            {
+              "name": "UTTARA PURBA",
+              "bn": "উত্তরা পূর্ব",
+              "postcode": "1230"
+            },
+            {
+              "name": "WARI",
+              "bn": "ওয়ারী",
+              "postcode": "1203"
+            }
+          ]
+        },
+        {
+          "name": "FARIDPUR",
+          "bn": "ফরিদপুর",
+          "thana": [
+            {
+              "name": "ALFADANGA",
+              "bn": "আলফাডাঙ্গা",
+              "postcode": "7820"
+            },
+            {
+              "name": "BHANGA",
+              "bn": "ভাঙ্গা",
+              "postcode": "7830"
+            },
+            {
+              "name": "BOALMARI",
+              "bn": "বোয়ালমারী",
+              "postcode": "7810"
+            },
+            {
+              "name": "CHAR BHADRASAN",
+              "bn": "চরভদ্রাসন",
+              "postcode": "7870"
+            },
+            {
+              "name": "FARIDPUR SADAR",
+              "bn": "ফরিদপুর সদর",
+              "postcode": "7800"
+            },
+            {
+              "name": "MADHUKHALI",
+              "bn": "মধুখালী",
+              "postcode": "7860"
+            },
+            {
+              "name": "NAGARKANDA",
+              "bn": "নগরকান্দা",
+              "postcode": "7840"
+            },
+            {
+              "name": "SADARPUR",
+              "bn": "সদরপুর",
+              "postcode": "7850"
+            },
+            {
+              "name": "SALTHA",
+              "bn": "সালথা",
+              "postcode": "7880"
+            }
+          ]
+        },
+        {
+          "name": "GAZIPUR",
+          "bn": "গাজীপুর",
+          "thana": [
+            {
+              "name": "GAZIPUR SADAR",
+              "bn": "গাজীপুর সদর",
+              "postcode": "1700"
+            },
+            {
+              "name": "KALIAKAIR",
+              "bn": "কালিয়াকৈর",
+              "postcode": "1750"
+            },
+            {
+              "name": "KALIGANJ",
+              "bn": "কালীগঞ্জ",
+              "postcode": "1720"
+            },
+            {
+              "name": "KAPASIA",
+              "bn": "কাপাসিয়া",
+              "postcode": "1730"
+            },
+            {
+              "name": "SREEPUR",
+              "bn": "শ্রীপুর",
+              "postcode": "1740"
+            },
+            {
+              "name": "TONGI",
+              "bn": "টঙ্গী",
+              "postcode": "1710"
+            }
+          ]
+        },
+        {
+          "name": "GOPALGANJ",
+          "bn": "গোপালগঞ্জ",
+          "thana": [
+            {
+              "name": "GOPALGANJ SADAR",
+              "bn": "গোপালগঞ্জ সদর",
+              "postcode": "8100"
+            },
+            {
+              "name": "KASHIANI",
+              "bn": "কাশিয়ানী",
+              "postcode": "8120"
+            },
+            {
+              "name": "KOTALIPARA",
+              "bn": "কোটালীপাড়া",
+              "postcode": "8140"
+            },
+            {
+              "name": "MUKSUDPUR",
+              "bn": "মুকসুদপুর",
+              "postcode": "8130"
+            },
+            {
+              "name": "TUNGIPARA",
+              "bn": "টুঙ্গিপাড়া",
+              "postcode": "8110"
+            }
+          ]
+        },
+        {
+          "name": "MADARIPUR",
+          "bn": "মাদারীপুর",
+          "thana": [
+            {
+              "name": "KALKINI",
+              "bn": "কালকিনি",
+              "postcode": "7920"
+            },
+            {
+              "name": "MADARIPUR SADAR",
+              "bn": "মাদারীপুর সদর",
+              "postcode": "7900"
+            },
+            {
+              "name": "RAJOIR",
+              "bn": "রাজৈর",
+              "postcode": "7930"
+            },
+            {
+              "name": "SHIBCHAR",
+              "bn": "শিবচর",
+              "postcode": "7910"
+            }
+          ]
+        },
+        {
+          "name": "MANIKGONJ",
+          "bn": "মানিকগঞ্জ",
+          "thana": [
+            {
+              "name": "DAULATPUR",
+              "bn": "দৌলতপুর",
+              "postcode": "1840"
+            },
+            {
+              "name": "GHIOR",
+              "bn": "ঘিওর",
+              "postcode": "1850"
+            },
+            {
+              "name": "HARIRAMPUR",
+              "bn": "হরিরামপুর",
+              "postcode": "1820"
+            },
+            {
+              "name": "MANIKGANJ SADAR",
+              "bn": "মানিকগঞ্জ সদর",
+              "postcode": "1800"
+            },
+            {
+              "name": "SATURIA",
+              "bn": "সাটুরিয়া",
+              "postcode": "1810"
+            },
+            {
+              "name": "SHIBALAYA",
+              "bn": "শিবালয়",
+              "postcode": "1860"
+            },
+            {
+              "name": "SINGAIR",
+              "bn": "সিংগাইর",
+              "postcode": "1830"
+            }
+          ]
+        },
+        {
+          "name": "MUNSHIGONJ",
+          "bn": "মুন্সীগঞ্জ",
+          "thana": [
+            {
+              "name": "GAZARIA",
+              "bn": "গজারিয়া",
+              "postcode": "1510"
+            },
+            {
+              "name": "LOHAJANG",
+              "bn": "লৌহজং",
+              "postcode": "1540"
+            },
+            {
+              "name": "MUNSHIGANJ SADAR",
+              "bn": "মুন্সীগঞ্জ সদর",
+              "postcode": "1500"
+            },
+            {
+              "name": "SERAJDIKHAN",
+              "bn": "সিরাজদিখান",
+              "postcode": "1560"
+            },
+            {
+              "name": "SREENAGAR",
+              "bn": "শ্রীনগর",
+              "postcode": "1550"
+            },
+            {
+              "name": "TONGIBARI",
+              "bn": "টঙ্গীবাড়ী",
+              "postcode": "1530"
+            }
+          ]
+        },
+        {
+          "name": "NARAYANGANJ",
+          "bn": "নারায়ণগঞ্জ",
+          "thana": [
+            {
+              "name": "ARAI HAZAR",
+              "bn": "আড়াইহাজার",
+              "postcode": "1410"
+            },
+            {
+              "name": "BANDAR",
+              "bn": "বন্দর",
+              "postcode": "1400"
+            },
+            {
+              "name": "NARAYANGANJ SADAR",
+              "bn": "নারায়ণগঞ্জ সদর",
+              "postcode": "1400"
+            },
+            {
+              "name": "RUPGANJ",
+              "bn": "রূপগঞ্জ",
+              "postcode": "1460"
+            },
+            {
+              "name": "SONARGAON",
+              "bn": "সোনারগাঁও",
+              "postcode": "1440"
+            }
+          ]
+        },
+        {
+          "name": "NARSINGDI",
+          "bn": "নরসিংদী",
+          "thana": [
+            {
+              "name": "BELABO",
+              "bn": "বেলাবো",
+              "postcode": "1630"
+            },
+            {
+              "name": "MANOHARDI",
+              "bn": "মনোহরদী",
+              "postcode": "1620"
+            },
+            {
+              "name": "NARSINGDI SADAR",
+              "bn": "নরসিংদী সদর",
+              "postcode": "1600"
+            },
+            {
+              "name": "PALASH",
+              "bn": "পলাশ",
+              "postcode": "1610"
+            },
+            {
+              "name": "ROYPURA",
+              "bn": "রায়পুরা",
+              "postcode": "1640"
+            },
+            {
+              "name": "SHIBPUR",
+              "bn": "শিবপুর",
+              "postcode": "1650"
+            }
+          ]
+        },
+        {
+          "name": "RAJBARI",
+          "bn": "রাজবাড়ী",
+          "thana": [
+            {
+              "name": "BALIAKANDI",
+              "bn": "বালিয়াকান্দি",
+              "postcode": "7710"
+            },
+            {
+              "name": "GOALANDA",
+              "bn": "গোয়ালন্দ",
+              "postcode": "7730"
+            },
+            {
+              "name": "KALUKHALI",
+              "bn": "কালুখালী",
+              "postcode": "7720"
+            },
+            {
+              "name": "PANGSHA",
+              "bn": "পাংশা",
+              "postcode": "7740"
+            },
+            {
+              "name": "RAJBARI SADAR",
+              "bn": "রাজবাড়ী সদর",
+              "postcode": "7700"
+            }
+          ]
+        },
+        {
+          "name": "SHARIATPUR",
+          "bn": "শরীয়তপুর",
+          "thana": [
+            {
+              "name": "BHEDARGANJ",
+              "bn": "ভেদরগঞ্জ",
+              "postcode": "8020"
+            },
+            {
+              "name": "DAMUDYA",
+              "bn": "ডামুড্যা",
+              "postcode": "8030"
+            },
+            {
+              "name": "GOSAIRHAT",
+              "bn": "গোসাইরহাট",
+              "postcode": "8010"
+            },
+            {
+              "name": "NARIA",
+              "bn": "নড়িয়া",
+              "postcode": "8050"
+            },
+            {
+              "name": "SHARIATPUR SADAR",
+              "bn": "শরীয়তপুর সদর",
+              "postcode": "8000"
+            },
+            {
+              "name": "ZANJIRA",
+              "bn": "জাজিরা",
+              "postcode": "8040"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KHULNA",
+      "bn": "খুলনা",
+      "districts": [
+        {
+          "name": "BAGERHAT",
+          "bn": "বাগেরহাট",
+          "thana": [
+            {
+              "name": "BAGERHAT SADAR",
+              "bn": "বাগেরহাট সদর",
+              "postcode": "9300"
+            },
+            {
+              "name": "CHITALMARI",
+              "bn": "চিতলমারী",
+              "postcode": "9340"
+            },
+            {
+              "name": "FAKIRHAT",
+              "bn": "ফকিরহাট",
+              "postcode": "9370"
+            },
+            {
+              "name": "KACHUA",
+              "bn": "কচুয়া",
+              "postcode": "9330"
+            },
+            {
+              "name": "MOLLAHAT",
+              "bn": "মোল্লাহাট",
+              "postcode": "9350"
+            },
+            {
+              "name": "MONGLA",
+              "bn": "মোংলা",
+              "postcode": "9320"
+            },
+            {
+              "name": "MORRELGANJ",
+              "bn": "মোরেলগঞ্জ",
+              "postcode": "9360"
+            },
+            {
+              "name": "RAMPAL",
+              "bn": "রামপাল",
+              "postcode": "9310"
+            },
+            {
+              "name": "SARANKHOLA",
+              "bn": "শরণখোলা",
+              "postcode": "9380"
+            }
+          ]
+        },
+        {
+          "name": "CHUADANGA",
+          "bn": "চুয়াডাঙ্গা",
+          "thana": [
+            {
+              "name": "ALAMDANGA",
+              "bn": "আলমডাঙ্গা",
+              "postcode": "7010"
+            },
+            {
+              "name": "CHUADANGA SADAR",
+              "bn": "চুয়াডাঙ্গা সদর",
+              "postcode": "7200"
+            },
+            {
+              "name": "DAMURHUDA",
+              "bn": "দামুড়হুদা",
+              "postcode": "7220"
+            },
+            {
+              "name": "JIBAN NAGAR",
+              "bn": "জীবননগর",
+              "postcode": "7210"
+            }
+          ]
+        },
+        {
+          "name": "JESSORE",
+          "bn": "যশোর",
+          "thana": [
+            {
+              "name": "ABHAYNAGAR",
+              "bn": "অভয়নগর",
+              "postcode": "7460"
+            },
+            {
+              "name": "BAGHER PARA",
+              "bn": "বাঘারপাড়া",
+              "postcode": "7470"
+            },
+            {
+              "name": "CHAUGACHHA",
+              "bn": "চৌগাছা",
+              "postcode": "7410"
+            },
+            {
+              "name": "JESSORE SADAR",
+              "bn": "যশোর সদর",
+              "postcode": "7400"
+            },
+            {
+              "name": "JHIKARGACHHA",
+              "bn": "ঝিকরগাছা",
+              "postcode": "7420"
+            },
+            {
+              "name": "KESHABPUR",
+              "bn": "কেশবপুর",
+              "postcode": "7450"
+            },
+            {
+              "name": "MANIRAMPUR",
+              "bn": "মণিরামপুর",
+              "postcode": "7440"
+            },
+            {
+              "name": "SHARSHA",
+              "bn": "শার্শা",
+              "postcode": "7430"
+            }
+          ]
+        },
+        {
+          "name": "JHENAIDAH",
+          "bn": "ঝিনাইদহ",
+          "thana": [
+            {
+              "name": "HARINAKUNDA",
+              "bn": "হরিণাকুণ্ডু",
+              "postcode": "7340"
+            },
+            {
+              "name": "JHENAIDAH SADAR",
+              "bn": "ঝিনাইদহ সদর",
+              "postcode": "7300"
+            },
+            {
+              "name": "KALIGANJ",
+              "bn": "কালীগঞ্জ",
+              "postcode": "7310"
+            },
+            {
+              "name": "KOTCHANDPUR",
+              "bn": "কোটচাঁদপুর",
+              "postcode": "7330"
+            },
+            {
+              "name": "MAHESHPUR",
+              "bn": "মহেশপুর",
+              "postcode": "7350"
+            },
+            {
+              "name": "SHAILKUPA",
+              "bn": "শৈলকুপা",
+              "postcode": "7320"
+            }
+          ]
+        },
+        {
+          "name": "KHULNA",
+          "bn": "খুলনা",
+          "thana": [
+            {
+              "name": "BATIAGHATA",
+              "bn": "বটিয়াঘাটা",
+              "postcode": "9260"
+            },
+            {
+              "name": "DACOPE",
+              "bn": "দাকোপ",
+              "postcode": "9270"
+            },
+            {
+              "name": "DAULATPUR",
+              "bn": "দৌলতপুর",
+              "postcode": "9000"
+            },
+            {
+              "name": "DIGHALIA",
+              "bn": "ডুমুরিয়া",
+              "postcode": "9220"
+            },
+            {
+              "name": "DUMURIA",
+              "bn": "ডুমুরিয়া",
+              "postcode": "9250"
+            },
+            {
+              "name": "KHALISHPUR",
+              "bn": "খালিশপুর",
+              "postcode": "9000"
+            },
+            {
+              "name": "KHAN JAHAN ALI",
+              "bn": "খান জাহান আলী",
+              "postcode": "9000"
+            },
+            {
+              "name": "KHULNA SADAR",
+              "bn": "খুলনা সদর",
+              "postcode": "9000"
+            },
+            {
+              "name": "KOYRA",
+              "bn": "কয়রা",
+              "postcode": "9290"
+            },
+            {
+              "name": "PAIKGACHHA",
+              "bn": "পাইকগাছা",
+              "postcode": "9280"
+            },
+            {
+              "name": "PHULTALA",
+              "bn": "ফুলতলা",
+              "postcode": "9210"
+            },
+            {
+              "name": "RUPSA",
+              "bn": "রূপসা",
+              "postcode": "9240"
+            },
+            {
+              "name": "SONADANGA",
+              "bn": "সোনাডাঙ্গা",
+              "postcode": "9000"
+            },
+            {
+              "name": "TEROKHADA",
+              "bn": "তেরখাদা",
+              "postcode": "9230"
+            }
+          ]
+        },
+        {
+          "name": "KUSHTIA",
+          "bn": "কুষ্টিয়া",
+          "thana": [
+            {
+              "name": "BHERAMARA",
+              "bn": "ভেড়ামারা",
+              "postcode": "7020"
+            },
+            {
+              "name": "DAULATPUR",
+              "bn": "দৌলতপুর",
+              "postcode": "7030"
+            },
+            {
+              "name": "KHOKSA",
+              "bn": "খোকসা",
+              "postcode": "7060"
+            },
+            {
+              "name": "KUMARKHALI",
+              "bn": "কুমারখালী",
+              "postcode": "7040"
+            },
+            {
+              "name": "KUSHTIA SADAR",
+              "bn": "কুষ্টিয়া সদর",
+              "postcode": "7000"
+            },
+            {
+              "name": "MIRPUR",
+              "bn": "মিরপুর",
+              "postcode": "7050"
+            }
+          ]
+        },
+        {
+          "name": "MAGURA",
+          "bn": "মাগুরা",
+          "thana": [
+            {
+              "name": "MAGURA SADAR",
+              "bn": "মাগুরা সদর",
+              "postcode": "7600"
+            },
+            {
+              "name": "MOHAMMADPUR",
+              "bn": "মহম্মদপুর",
+              "postcode": "7620"
+            },
+            {
+              "name": "SHALIKHA",
+              "bn": "শালিখা",
+              "postcode": "7630"
+            },
+            {
+              "name": "SREEPUR",
+              "bn": "শ্রীপুর",
+              "postcode": "7610"
+            }
+          ]
+        },
+        {
+          "name": "MEHERPUR",
+          "bn": "মেহেরপুর",
+          "thana": [
+            {
+              "name": "GANGNI",
+              "bn": "গাংনী",
+              "postcode": "7110"
+            },
+            {
+              "name": "MEHERPUR SADAR",
+              "bn": "মেহেরপুর সদর",
+              "postcode": "7100"
+            },
+            {
+              "name": "MUJIB NAGAR",
+              "bn": "মুজিবনগর",
+              "postcode": "7102"
+            }
+          ]
+        },
+        {
+          "name": "NARAIL",
+          "bn": "নড়াইল",
+          "thana": [
+            {
+              "name": "KALIA",
+              "bn": "কালিয়া",
+              "postcode": "7520"
+            },
+            {
+              "name": "LOHAGARA",
+              "bn": "লোহাগড়া",
+              "postcode": "7510"
+            },
+            {
+              "name": "NARAIL SADAR",
+              "bn": "নড়াইল সদর",
+              "postcode": "7500"
+            }
+          ]
+        },
+        {
+          "name": "SATKHIRA",
+          "bn": "সাতক্ষীরা",
+          "thana": [
+            {
+              "name": "ASSASUNI",
+              "bn": "আশাশুনি",
+              "postcode": "9430"
+            },
+            {
+              "name": "DEBHATA",
+              "bn": "দেবহাটা",
+              "postcode": "9420"
+            },
+            {
+              "name": "KALAROA",
+              "bn": "কলারোয়া",
+              "postcode": "9410"
+            },
+            {
+              "name": "KALIGANJ",
+              "bn": "কালীগঞ্জ",
+              "postcode": "9440"
+            },
+            {
+              "name": "SATKHIRA SADAR",
+              "bn": "সাতক্ষীরা সদর",
+              "postcode": "9400"
+            },
+            {
+              "name": "SHYAMNAGAR",
+              "bn": "শ্যামনগর",
+              "postcode": "9450"
+            },
+            {
+              "name": "TALA",
+              "bn": "তালা",
+              "postcode": "9460"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MYMENSINGH",
+      "bn": "ময়মনসিংহ",
+      "districts": [
+        {
+          "name": "JAMALPUR",
+          "bn": "জামালপুর",
+          "thana": [
+            {
+              "name": "BAKSHIGANJ",
+              "bn": "বকশীগঞ্জ",
+              "postcode": "2050"
+            },
+            {
+              "name": "DEWANGANJ",
+              "bn": "দেওয়ানগঞ্জ",
+              "postcode": "2030"
+            },
+            {
+              "name": "ISLAMPUR",
+              "bn": "ইসলামপুর",
+              "postcode": "2010"
+            },
+            {
+              "name": "JAMALPUR SADAR",
+              "bn": "জামালপুর সদর",
+              "postcode": "2000"
+            },
+            {
+              "name": "MADARGANJ",
+              "bn": "মাদারগঞ্জ",
+              "postcode": "2060"
+            },
+            {
+              "name": "MELANDAHA",
+              "bn": "মেলান্দহ",
+              "postcode": "2040"
+            },
+            {
+              "name": "SARISHABARI UPAZILA",
+              "bn": "সরিষাবাড়ী",
+              "postcode": "2070"
+            }
+          ]
+        },
+        {
+          "name": "KISHOREGANJ",
+          "bn": "কিশোরগঞ্জ",
+          "thana": [
+            {
+              "name": "AUSTAGRAM",
+              "bn": "অষ্টগ্রাম",
+              "postcode": "2360"
+            },
+            {
+              "name": "BAJITPUR",
+              "bn": "বাজিতপুর",
+              "postcode": "2380"
+            },
+            {
+              "name": "BHAIRAB",
+              "bn": "ভৈরব",
+              "postcode": "2350"
+            },
+            {
+              "name": "HOSSAINPUR",
+              "bn": "হোসেনপুর",
+              "postcode": "2320"
+            },
+            {
+              "name": "ITNA",
+              "bn": "ইটনা",
+              "postcode": "2340"
+            },
+            {
+              "name": "KARIMGANJ",
+              "bn": "করিমগঞ্জ",
+              "postcode": "2310"
+            },
+            {
+              "name": "KATIADI",
+              "bn": "কটিয়াদী",
+              "postcode": "2330"
+            },
+            {
+              "name": "KISHOREGANJ SADAR",
+              "bn": "কিশোরগঞ্জ সদর",
+              "postcode": "2300"
+            },
+            {
+              "name": "KULIAR CHAR",
+              "bn": "কুলিয়ারচর",
+              "postcode": "2390"
+            },
+            {
+              "name": "MITHAMAIN",
+              "bn": "মিঠামইন",
+              "postcode": "2370"
+            },
+            {
+              "name": "NIKLI",
+              "bn": "নিকলী",
+              "postcode": "2355"
+            },
+            {
+              "name": "PAKUNDIA",
+              "bn": "পাকুন্দিয়া",
+              "postcode": "2315"
+            },
+            {
+              "name": "TARAIL",
+              "bn": "তাড়াইল",
+              "postcode": "2305"
+            }
+          ]
+        },
+        {
+          "name": "MYMENSINGH",
+          "bn": "ময়মনসিংহ",
+          "thana": [
+            {
+              "name": "BHALUKA",
+              "bn": "ভালুকা",
+              "postcode": "2240"
+            },
+            {
+              "name": "DHOBAURA",
+              "bn": "ধোবাউড়া",
+              "postcode": "2290"
+            },
+            {
+              "name": "FULBARIA",
+              "bn": "ফুলবাড়িয়া",
+              "postcode": "2210"
+            },
+            {
+              "name": "GAFFARGAON",
+              "bn": "গফরগাঁও",
+              "postcode": "2230"
+            },
+            {
+              "name": "GAURIPUR",
+              "bn": "গৌরীপুর",
+              "postcode": "2260"
+            },
+            {
+              "name": "HALUAGHAT",
+              "bn": "হালুয়াঘাট",
+              "postcode": "2270"
+            },
+            {
+              "name": "ISHWARGANJ",
+              "bn": "ঈশ্বরগঞ্জ",
+              "postcode": "2250"
+            },
+            {
+              "name": "MUKTAGACHHA",
+              "bn": "মুক্তাগাছা",
+              "postcode": "2220"
+            },
+            {
+              "name": "MYMENSINGH SADAR",
+              "bn": "ময়মনসিংহ সদর",
+              "postcode": "2200"
+            },
+            {
+              "name": "NANDAIL",
+              "bn": "নান্দাইল",
+              "postcode": "2280"
+            },
+            {
+              "name": "PHULPUR",
+              "bn": "ফুলপুর",
+              "postcode": "2215"
+            },
+            {
+              "name": "TRISHAL",
+              "bn": "ত্রিশাল",
+              "postcode": "2235"
+            }
+          ]
+        },
+        {
+          "name": "NETROKONA",
+          "bn": "নেত্রকোনা",
+          "thana": [
+            {
+              "name": "ATPARA",
+              "bn": "আটপাড়া",
+              "postcode": "2460"
+            },
+            {
+              "name": "BARHATTA",
+              "bn": "বারহাট্টা",
+              "postcode": "2410"
+            },
+            {
+              "name": "DURGAPUR",
+              "bn": "দুর্গাপুর",
+              "postcode": "2450"
+            },
+            {
+              "name": "KALMAKANDA",
+              "bn": "কলমাকান্দা",
+              "postcode": "2420"
+            },
+            {
+              "name": "KENDUA",
+              "bn": "কেন্দুয়া",
+              "postcode": "2470"
+            },
+            {
+              "name": "KHALIAJURI",
+              "bn": "খালিয়াজুড়ী",
+              "postcode": "2480"
+            },
+            {
+              "name": "MADAN",
+              "bn": "মদন",
+              "postcode": "2490"
+            },
+            {
+              "name": "MOHANGANJ",
+              "bn": "মোহনগঞ্জ",
+              "postcode": "2430"
+            },
+            {
+              "name": "NETROKONA SADAR",
+              "bn": "নেত্রকোনা সদর",
+              "postcode": "2400"
+            },
+            {
+              "name": "PURBADHALA",
+              "bn": "পূর্বধলা",
+              "postcode": "2440"
+            }
+          ]
+        },
+        {
+          "name": "SHERPUR",
+          "bn": "শেরপুর",
+          "thana": [
+            {
+              "name": "JHENAIGATI",
+              "bn": "ঝিনাইগাতী",
+              "postcode": "2140"
+            },
+            {
+              "name": "NAKLA",
+              "bn": "নকলা",
+              "postcode": "2130"
+            },
+            {
+              "name": "NALITABARI",
+              "bn": "নালিতাবাড়ী",
+              "postcode": "2120"
+            },
+            {
+              "name": "SHERPUR SADAR",
+              "bn": "শেরপুর সদর",
+              "postcode": "2100"
+            },
+            {
+              "name": "SREEBARDI",
+              "bn": "শ্রীবরদী",
+              "postcode": "2110"
+            }
+          ]
+        },
+        {
+          "name": "TANGAIL",
+          "bn": "টাঙ্গাইল",
+          "thana": [
+            {
+              "name": "BASAIL",
+              "bn": "বাসাইল",
+              "postcode": "1920"
+            },
+            {
+              "name": "BHUAPUR",
+              "bn": "ভূঞাপুর",
+              "postcode": "1960"
+            },
+            {
+              "name": "DELDUAR",
+              "bn": "দেলদুয়ার",
+              "postcode": "1910"
+            },
+            {
+              "name": "DHANBARI",
+              "bn": "ধনবাড়ী",
+              "postcode": "1995"
+            },
+            {
+              "name": "GHATAIL",
+              "bn": "ঘাটাইল",
+              "postcode": "1980"
+            },
+            {
+              "name": "GOPALPUR",
+              "bn": "গোপালপুর",
+              "postcode": "1990"
+            },
+            {
+              "name": "KALIHATI",
+              "bn": "কালিহাতী",
+              "postcode": "1970"
+            },
+            {
+              "name": "MADHUPUR",
+              "bn": "মধুপুর",
+              "postcode": "1996"
+            },
+            {
+              "name": "MIRZAPUR",
+              "bn": "মির্জাপুর",
+              "postcode": "1940"
+            },
+            {
+              "name": "NAGARPUR",
+              "bn": "নাগরপুর",
+              "postcode": "1930"
+            },
+            {
+              "name": "SAKHIPUR",
+              "bn": "সখিপুর",
+              "postcode": "1950"
+            },
+            {
+              "name": "TANGAIL SADAR",
+              "bn": "টাঙ্গাইল সদর",
+              "postcode": "1900"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RAJSHAHI",
+      "bn": "রাজশাহী",
+      "districts": [
+        {
+          "name": "BOGRA",
+          "bn": "বগুড়া",
+          "thana": [
+            {
+              "name": "ADAMDIGHI",
+              "bn": "আদমদীঘি",
+              "postcode": "5820"
+            },
+            {
+              "name": "BOGRA SADAR",
+              "bn": "বগুড়া সদর",
+              "postcode": "5800"
+            },
+            {
+              "name": "DHUNAT",
+              "bn": "ধুনট",
+              "postcode": "5870"
+            },
+            {
+              "name": "DHUPCHANCHIA",
+              "bn": "দুপচাঁচিয়া",
+              "postcode": "5840"
+            },
+            {
+              "name": "GABTALI",
+              "bn": "গাবতলী",
+              "postcode": "5850"
+            },
+            {
+              "name": "KAHALOO",
+              "bn": "কাহালু",
+              "postcode": "5810"
+            },
+            {
+              "name": "NANDIGRAM",
+              "bn": "নন্দীগ্রাম",
+              "postcode": "5860"
+            },
+            {
+              "name": "SARIAKANDI",
+              "bn": "সারিয়াকান্দি",
+              "postcode": "5880"
+            },
+            {
+              "name": "SHAJAHANPUR",
+              "bn": "শাজাহানপুর",
+              "postcode": "5830"
+            },
+            {
+              "name": "SHERPUR",
+              "bn": "শেরপুর",
+              "postcode": "5840"
+            },
+            {
+              "name": "SHIBGANJ",
+              "bn": "শিবগঞ্জ",
+              "postcode": "5890"
+            },
+            {
+              "name": "SONATOLA",
+              "bn": "সোনাতলা",
+              "postcode": "5895"
+            }
+          ]
+        },
+        {
+          "name": "CHAPAI NABABGANJ",
+          "bn": "চাঁপাইনবাবগঞ্জ",
+          "thana": [
+            {
+              "name": "BHOLAHAT",
+              "bn": "ভোলাহাট",
+              "postcode": "6340"
+            },
+            {
+              "name": "CHAPAI NABABGANJ SADAR",
+              "bn": "চাঁপাইনবাবগঞ্জ সদর",
+              "postcode": "6300"
+            },
+            {
+              "name": "GOMASTAPUR",
+              "bn": "গোমস্তাপুর",
+              "postcode": "6330"
+            },
+            {
+              "name": "NACHOLE",
+              "bn": "নাচোল",
+              "postcode": "6320"
+            },
+            {
+              "name": "SHIBGANJ",
+              "bn": "শিবগঞ্জ",
+              "postcode": "6310"
+            }
+          ]
+        },
+        {
+          "name": "JOYPURHAT",
+          "bn": "জয়পুরহাট",
+          "thana": [
+            {
+              "name": "AKKELPUR",
+              "bn": "আক্কেলপুর",
+              "postcode": "5940"
+            },
+            {
+              "name": "JOYPURHAT SADAR",
+              "bn": "জয়পুরহাট সদর",
+              "postcode": "5900"
+            },
+            {
+              "name": "KALAI",
+              "bn": "কালাই",
+              "postcode": "5920"
+            },
+            {
+              "name": "KHETLAL",
+              "bn": "ক্ষেতলাল",
+              "postcode": "5930"
+            },
+            {
+              "name": "PANCHBIBI",
+              "bn": "পাঁচবিবি",
+              "postcode": "5910"
+            }
+          ]
+        },
+        {
+          "name": "NAOGAON",
+          "bn": "নওগাঁ",
+          "thana": [
+            {
+              "name": "ATRAI",
+              "bn": "আত্রাই",
+              "postcode": "6540"
+            },
+            {
+              "name": "BADALGACHHI",
+              "bn": "বদলগাছী",
+              "postcode": "6520"
+            },
+            {
+              "name": "DHAMOIRHAT",
+              "bn": "ধামইরহাট",
+              "postcode": "6560"
+            },
+            {
+              "name": "MAHADEBPUR",
+              "bn": "মহাদেবপুর",
+              "postcode": "6530"
+            },
+            {
+              "name": "MANDA",
+              "bn": "মান্দা",
+              "postcode": "6510"
+            },
+            {
+              "name": "NAOGAON SADAR",
+              "bn": "নওগাঁ সদর",
+              "postcode": "6500"
+            },
+            {
+              "name": "NIAMATPUR",
+              "bn": "নিয়ামতপুর",
+              "postcode": "6550"
+            },
+            {
+              "name": "PATNITALA",
+              "bn": "পত্নীতলা",
+              "postcode": "6570"
+            },
+            {
+              "name": "PORSHA",
+              "bn": "পোরশা",
+              "postcode": "6580"
+            },
+            {
+              "name": "RANINAGAR",
+              "bn": "রাণীনগর",
+              "postcode": "6590"
+            },
+            {
+              "name": "SAPAHAR",
+              "bn": "সাপাহার",
+              "postcode": "6585"
+            }
+          ]
+        },
+        {
+          "name": "NATORE",
+          "bn": "নাটোর",
+          "thana": [
+            {
+              "name": "BAGATIPARA",
+              "bn": "বাগাতিপাড়া",
+              "postcode": "6430"
+            },
+            {
+              "name": "BARAIGRAM",
+              "bn": "বড়াইগ্রাম",
+              "postcode": "6440"
+            },
+            {
+              "name": "GURUDASPUR",
+              "bn": "গুরুদাসপুর",
+              "postcode": "6420"
+            },
+            {
+              "name": "LALPUR",
+              "bn": "লালপুর",
+              "postcode": "6450"
+            },
+            {
+              "name": "NATORE SADAR",
+              "bn": "নাটোর সদর",
+              "postcode": "6400"
+            },
+            {
+              "name": "SINGRA",
+              "bn": "সিংড়া",
+              "postcode": "6410"
+            }
+          ]
+        },
+        {
+          "name": "PABNA",
+          "bn": "পাবনা",
+          "thana": [
+            {
+              "name": "ATGHARIA",
+              "bn": "আটঘরিয়া",
+              "postcode": "6650"
+            },
+            {
+              "name": "BERA",
+              "bn": "বেড়া",
+              "postcode": "6620"
+            },
+            {
+              "name": "BHANGURA",
+              "bn": "ভাঙ্গুড়া",
+              "postcode": "6660"
+            },
+            {
+              "name": "CHATMOHAR",
+              "bn": "চাটমোহর",
+              "postcode": "6640"
+            },
+            {
+              "name": "FARIDPUR",
+              "bn": "ফরিদপুর",
+              "postcode": "6670"
+            },
+            {
+              "name": "ISHWARDI",
+              "bn": "ঈশ্বরদী",
+              "postcode": "6620"
+            },
+            {
+              "name": "PABNA SADAR",
+              "bn": "পাবনা সদর",
+              "postcode": "6600"
+            },
+            {
+              "name": "SANTHIA",
+              "bn": "সাঁথিয়া",
+              "postcode": "6630"
+            },
+            {
+              "name": "SUJANAGAR",
+              "bn": "সুজানগর",
+              "postcode": "6610"
+            }
+          ]
+        },
+        {
+          "name": "RAJSHAHI",
+          "bn": "রাজশাহী",
+          "thana": [
+            {
+              "name": "BAGHA",
+              "bn": "বাঘা",
+              "postcode": "6270"
+            },
+            {
+              "name": "BAGHMARA",
+              "bn": "বাঘমারা",
+              "postcode": "6260"
+            },
+            {
+              "name": "BOALIA",
+              "bn": "বোয়ালিয়া",
+              "postcode": "6000"
+            },
+            {
+              "name": "CHARGHAT",
+              "bn": "চারঘাট",
+              "postcode": "6220"
+            },
+            {
+              "name": "DURGAPUR",
+              "bn": "দুর্গাপুর",
+              "postcode": "6250"
+            },
+            {
+              "name": "GODAGARI",
+              "bn": "গোদাগাড়ী",
+              "postcode": "6280"
+            },
+            {
+              "name": "MATIHAR",
+              "bn": "মতিহার",
+              "postcode": "6204"
+            },
+            {
+              "name": "MOHANPUR",
+              "bn": "মোহনপুর",
+              "postcode": "6240"
+            },
+            {
+              "name": "PABA",
+              "bn": "পবা",
+              "postcode": "6230"
+            },
+            {
+              "name": "PUTHIA",
+              "bn": "পুঠিয়া",
+              "postcode": "6210"
+            },
+            {
+              "name": "RAJPARA",
+              "bn": "রাজপাড়া",
+              "postcode": "6202"
+            },
+            {
+              "name": "SHAH MAKHDUM",
+              "bn": "শাহ মখদুম",
+              "postcode": "6200"
+            },
+            {
+              "name": "TANORE",
+              "bn": "তানোর",
+              "postcode": "6290"
+            }
+          ]
+        },
+        {
+          "name": "SIRAJGANJ",
+          "bn": "সিরাজগঞ্জ",
+          "thana": [
+            {
+              "name": "BELKUCHI",
+              "bn": "বেলকুচি",
+              "postcode": "6720"
+            },
+            {
+              "name": "CHAUHALI",
+              "bn": "চৌহালী",
+              "postcode": "6760"
+            },
+            {
+              "name": "KAMARKHANDA",
+              "bn": "কামারখন্দ",
+              "postcode": "6730"
+            },
+            {
+              "name": "KAZIPUR",
+              "bn": "কাজীপুর",
+              "postcode": "6750"
+            },
+            {
+              "name": "ROYGANJ",
+              "bn": "রায়গঞ্জ",
+              "postcode": "6740"
+            },
+            {
+              "name": "SHAHJADPUR",
+              "bn": "শাহজাদপুর",
+              "postcode": "6710"
+            },
+            {
+              "name": "SIRAJGANJ SADAR",
+              "bn": "সিরাজগঞ্জ সদর",
+              "postcode": "6700"
+            },
+            {
+              "name": "TARASH",
+              "bn": "তাড়াশ",
+              "postcode": "6770"
+            },
+            {
+              "name": "ULLAH PARA",
+              "bn": "উল্লাপাড়া",
+              "postcode": "6780"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RANGPUR",
+      "bn": "রংপুর",
+      "districts": [
+        {
+          "name": "DINAJPUR",
+          "bn": "দিনাজপুর",
+          "thana": [
+            {
+              "name": "BIRAL",
+              "bn": "বীরল",
+              "postcode": "5240"
+            },
+            {
+              "name": "BIRAMPUR",
+              "bn": "বিরামপুর",
+              "postcode": "5260"
+            },
+            {
+              "name": "BIRGANJ",
+              "bn": "বিরগঞ্জ",
+              "postcode": "5230"
+            },
+            {
+              "name": "BOCHAGANJ",
+              "bn": "বোচাগঞ্জ",
+              "postcode": "5270"
+            },
+            {
+              "name": "CHIRIRBANDAR",
+              "bn": "চিরিরবন্দর",
+              "postcode": "5280"
+            },
+            {
+              "name": "DINAJPUR SADAR",
+              "bn": "দিনাজপুর সদর",
+              "postcode": "5200"
+            },
+            {
+              "name": "FULBARI",
+              "bn": "ফুলবাড়ী",
+              "postcode": "5250"
+            },
+            {
+              "name": "GHORAGHAT",
+              "bn": "ঘোড়াঘাট",
+              "postcode": "5220"
+            },
+            {
+              "name": "HAKIMPUR",
+              "bn": "হাকিমপুর",
+              "postcode": "5290"
+            },
+            {
+              "name": "KAHAROLE",
+              "bn": "কাহারোল",
+              "postcode": "5210"
+            },
+            {
+              "name": "KHANSAMA",
+              "bn": "খানসামা",
+              "postcode": "5285"
+            },
+            {
+              "name": "NAWABGANJ",
+              "bn": "নবাবগঞ্জ",
+              "postcode": "5245"
+            },
+            {
+              "name": "PARBATIPUR",
+              "bn": "পার্বতীপুর",
+              "postcode": "5252"
+            }
+          ]
+        },
+        {
+          "name": "GAIBANDHA",
+          "bn": "গাইবান্ধা",
+          "thana": [
+            {
+              "name": "FULCHHARI",
+              "bn": "ফুলছড়ি",
+              "postcode": "5760"
+            },
+            {
+              "name": "GAIBANDHA SADAR",
+              "bn": "গাইবান্ধা সদর",
+              "postcode": "5700"
+            },
+            {
+              "name": "GOBINDAGANJ",
+              "bn": "গোবিন্দগঞ্জ",
+              "postcode": "5740"
+            },
+            {
+              "name": "PALASHBARI",
+              "bn": "পলাশবাড়ী",
+              "postcode": "5710"
+            },
+            {
+              "name": "SADULLAPUR",
+              "bn": "সাদুল্লাপুর",
+              "postcode": "5730"
+            },
+            {
+              "name": "SAGHATA",
+              "bn": "সাঘাটা",
+              "postcode": "5750"
+            },
+            {
+              "name": "SUNDARGANJ",
+              "bn": "সুন্দরগঞ্জ",
+              "postcode": "5720"
+            }
+          ]
+        },
+        {
+          "name": "KURIGRAM",
+          "bn": "কুড়িগ্রাম",
+          "thana": [
+            {
+              "name": "BHURUNGAMARI",
+              "bn": "ভুরুঙ্গামারী",
+              "postcode": "5670"
+            },
+            {
+              "name": "CHAR RAJIBPUR",
+              "bn": "চর রাজিবপুর",
+              "postcode": "5640"
+            },
+            {
+              "name": "CHILMARI",
+              "bn": "চিলমারী",
+              "postcode": "5620"
+            },
+            {
+              "name": "KURIGRAM SADAR",
+              "bn": "কুড়িগ্রাম সদর",
+              "postcode": "5600"
+            },
+            {
+              "name": "NAGESHWARI",
+              "bn": "নাগেশ্বরী",
+              "postcode": "5610"
+            },
+            {
+              "name": "PHULBARI",
+              "bn": "ফুলবাড়ী",
+              "postcode": "5660"
+            },
+            {
+              "name": "RAJARHAT",
+              "bn": "রাজারহাট",
+              "postcode": "5680"
+            },
+            {
+              "name": "RAUMARI",
+              "bn": "রৌমারী",
+              "postcode": "5650"
+            },
+            {
+              "name": "ULIPUR",
+              "bn": "উলিপুর",
+              "postcode": "5630"
+            }
+          ]
+        },
+        {
+          "name": "LALMONIRHAT",
+          "bn": "লালমনিরহাট",
+          "thana": [
+            {
+              "name": "ADITMARI",
+              "bn": "আদিতমারী",
+              "postcode": "5520"
+            },
+            {
+              "name": "HATIBANDHA",
+              "bn": "হাতীবান্ধা",
+              "postcode": "5540"
+            },
+            {
+              "name": "KALIGANJ",
+              "bn": "কালীগঞ্জ",
+              "postcode": "5530"
+            },
+            {
+              "name": "LALMONIRHAT SADAR",
+              "bn": "লালমনিরহাট সদর",
+              "postcode": "5500"
+            },
+            {
+              "name": "PATGRAM",
+              "bn": "পাটগ্রাম",
+              "postcode": "5510"
+            }
+          ]
+        },
+        {
+          "name": "NILPHAMARI",
+          "bn": "নীলফামারী",
+          "thana": [
+            {
+              "name": "DIMLA",
+              "bn": "ডিমলা",
+              "postcode": "5360"
+            },
+            {
+              "name": "DOMAR",
+              "bn": "ডোমার",
+              "postcode": "5340"
+            },
+            {
+              "name": "JALDHAKA",
+              "bn": "জলঢাকা",
+              "postcode": "5350"
+            },
+            {
+              "name": "KISHOREGANJ",
+              "bn": "কিশোরগঞ্জ",
+              "postcode": "5320"
+            },
+            {
+              "name": "NILPHAMARI SADAR",
+              "bn": "নীলফামারী সদর",
+              "postcode": "5300"
+            },
+            {
+              "name": "SAIDPUR",
+              "bn": "সৈয়দপুর",
+              "postcode": "5310"
+            }
+          ]
+        },
+        {
+          "name": "PANCHAGARH",
+          "bn": "পঞ্চগড়",
+          "thana": [
+            {
+              "name": "ATWARI",
+              "bn": "আটোয়ারী",
+              "postcode": "5030"
+            },
+            {
+              "name": "BODA",
+              "bn": "বোদা",
+              "postcode": "5040"
+            },
+            {
+              "name": "DEBIGANJ",
+              "bn": "দেবীগঞ্জ",
+              "postcode": "5020"
+            },
+            {
+              "name": "PANCHAGARH SADAR",
+              "bn": "পঞ্চগড় সদর",
+              "postcode": "5000"
+            },
+            {
+              "name": "TENTULIA",
+              "bn": "তেঁতুলিয়া",
+              "postcode": "5010"
+            }
+          ]
+        },
+        {
+          "name": "RANGPUR",
+          "bn": "রংপুর",
+          "thana": [
+            {
+              "name": "BADARGANJ",
+              "bn": "বদরগঞ্জ",
+              "postcode": "5480"
+            },
+            {
+              "name": "GANGACHARA",
+              "bn": "গঙ্গাচড়া",
+              "postcode": "5420"
+            },
+            {
+              "name": "KAUNIA",
+              "bn": "কাউনিয়া",
+              "postcode": "5460"
+            },
+            {
+              "name": "MITHA PUKUR",
+              "bn": "মিঠাপুকুর",
+              "postcode": "5430"
+            },
+            {
+              "name": "PIRGACHHA",
+              "bn": "পীরগাছা",
+              "postcode": "5450"
+            },
+            {
+              "name": "PIRGANJ",
+              "bn": "পীরগঞ্জ",
+              "postcode": "5410"
+            },
+            {
+              "name": "RANGPUR SADAR",
+              "bn": "রংপুর সদর",
+              "postcode": "5400"
+            },
+            {
+              "name": "TARAGANJ",
+              "bn": "তারাগঞ্জ",
+              "postcode": "5440"
+            }
+          ]
+        },
+        {
+          "name": "THAKURGAON",
+          "bn": "ঠাকুরগাঁও",
+          "thana": [
+            {
+              "name": "BALIADANGI",
+              "bn": "বালিয়াডাঙ্গী",
+              "postcode": "5130"
+            },
+            {
+              "name": "HARIPUR",
+              "bn": "হরিপুর",
+              "postcode": "5140"
+            },
+            {
+              "name": "PIRGANJ",
+              "bn": "পীরগঞ্জ",
+              "postcode": "5120"
+            },
+            {
+              "name": "RANISANKAIL",
+              "bn": "রাণীশংকৈল",
+              "postcode": "5150"
+            },
+            {
+              "name": "THAKURGAON SADAR",
+              "bn": "ঠাকুরগাঁও সদর",
+              "postcode": "5100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SYLHET",
+      "bn": "সিলেট",
+      "districts": [
+        {
+          "name": "HABIGANJ",
+          "bn": "হবিগঞ্জ",
+          "thana": [
+            {
+              "name": "AJMIRIGANJ",
+              "bn": "আজমিরীগঞ্জ",
+              "postcode": "3340"
+            },
+            {
+              "name": "BAHUBAL",
+              "bn": "বাহুবল",
+              "postcode": "3330"
+            },
+            {
+              "name": "BANIACHONG",
+              "bn": "বানিয়াচং",
+              "postcode": "3320"
+            },
+            {
+              "name": "CHUNARUGHAT",
+              "bn": "চুনারুঘাট",
+              "postcode": "3310"
+            },
+            {
+              "name": "HABIGANJ SADAR",
+              "bn": "হবিগঞ্জ সদর",
+              "postcode": "3300"
+            },
+            {
+              "name": "LAKHAI",
+              "bn": "লাখাই",
+              "postcode": "3350"
+            },
+            {
+              "name": "MADHABPUR",
+              "bn": "মাধবপুর",
+              "postcode": "3360"
+            },
+            {
+              "name": "NABIGANJ",
+              "bn": "নবীগঞ্জ",
+              "postcode": "3370"
+            }
+          ]
+        },
+        {
+          "name": "MAULVIBAZAR",
+          "bn": "মৌলভীবাজার",
+          "thana": [
+            {
+              "name": "BARLEKHA",
+              "bn": "বড়লেখা",
+              "postcode": "3250"
+            },
+            {
+              "name": "JURI",
+              "bn": "জুড়ী",
+              "postcode": "3240"
+            },
+            {
+              "name": "KAMALGANJ",
+              "bn": "কমলগঞ্জ",
+              "postcode": "3220"
+            },
+            {
+              "name": "KULAURA",
+              "bn": "কুলাউড়া",
+              "postcode": "3230"
+            },
+            {
+              "name": "MAULVIBAZAR SADAR",
+              "bn": "মৌলভীবাজার সদর",
+              "postcode": "3200"
+            },
+            {
+              "name": "RAJNAGAR",
+              "bn": "রাজনগর",
+              "postcode": "3270"
+            },
+            {
+              "name": "SREEMANGAL",
+              "bn": "শ্রীমঙ্গল",
+              "postcode": "3210"
+            }
+          ]
+        },
+        {
+          "name": "SUNAMGANJ",
+          "bn": "সুনামগঞ্জ",
+          "thana": [
+            {
+              "name": "CHHATAK",
+              "bn": "ছাতক",
+              "postcode": "3080"
+            },
+            {
+              "name": "DAKSHIN SUNAMGANJ",
+              "bn": "দক্ষিণ সুনামগঞ্জ",
+              "postcode": "3090"
+            },
+            {
+              "name": "DERAI",
+              "bn": "দিরাই",
+              "postcode": "3060"
+            },
+            {
+              "name": "DHARAMPASHA",
+              "bn": "ধর্মপাশা",
+              "postcode": "3040"
+            },
+            {
+              "name": "DOWARABAZAR",
+              "bn": "দোয়ারাবাজার",
+              "postcode": "3070"
+            },
+            {
+              "name": "ISHWAMBARPUR",
+              "bn": "ইসলামপুর",
+              "postcode": "3050"
+            },
+            {
+              "name": "JAGANNATHPUR",
+              "bn": "জগন্নাথপুর",
+              "postcode": "3030"
+            },
+            {
+              "name": "JAMALGANJ",
+              "bn": "জামালগঞ্জ",
+              "postcode": "3020"
+            },
+            {
+              "name": "SULLA",
+              "bn": "শাল্লা",
+              "postcode": "3010"
+            },
+            {
+              "name": "SUNAMGANJ SADAR",
+              "bn": "সুনামগঞ্জ সদর",
+              "postcode": "3000"
+            },
+            {
+              "name": "TAHIRPUR",
+              "bn": "তাহিরপুর",
+              "postcode": "3025"
+            }
+          ]
+        },
+        {
+          "name": "SYLHET",
+          "bn": "সিলেট",
+          "thana": [
+            {
+              "name": "BALAGANJ",
+              "bn": "বালাগঞ্জ",
+              "postcode": "3130"
+            },
+            {
+              "name": "BEANI BAZAR",
+              "bn": "বিয়ানীবাজার",
+              "postcode": "3140"
+            },
+            {
+              "name": "BISHWANATH",
+              "bn": "বিশ্বনাথ",
+              "postcode": "3150"
+            },
+            {
+              "name": "COMPANIGANJ",
+              "bn": "কোম্পানীগঞ্জ",
+              "postcode": "3160"
+            },
+            {
+              "name": "DAKSHIN SURMA",
+              "bn": "দক্ষিণ সুরমা",
+              "postcode": "3170"
+            },
+            {
+              "name": "FENCHUGANJ",
+              "bn": "ফেঞ্চুগঞ্জ",
+              "postcode": "3116"
+            },
+            {
+              "name": "GOLAPGANJ",
+              "bn": "গোলাপগঞ্জ",
+              "postcode": "3112"
+            },
+            {
+              "name": "GOWAINGHAT",
+              "bn": "গোয়াইনঘাট",
+              "postcode": "3180"
+            },
+            {
+              "name": "JAINTIAPUR",
+              "bn": "জৈন্তাপুর",
+              "postcode": "3156"
+            },
+            {
+              "name": "KANAIGHAT",
+              "bn": "কানাইঘাট",
+              "postcode": "3190"
+            },
+            {
+              "name": "SYLHET SADAR",
+              "bn": "সিলেট সদর",
+              "postcode": "3100"
+            },
+            {
+              "name": "ZAKIGANJ",
+              "bn": "জকিগঞ্জ",
+              "postcode": "3120"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
