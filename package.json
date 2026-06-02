@@ -1,8 +1,11 @@
 {
-  "name": "bd-location-data",
+  "name": "@bd-geo-data/bd-location-data",
   "version": "1.0.0",
   "description": "বাংলাদেশের সকল বিভাগ, জেলা ও থানার তথ্য (ইংরেজি ও বাংলায়) | Bangladesh divisions, districts, and thanas in English and Bangla",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "bangladesh",
     "division",
@@ -13,6 +16,6 @@
     "location",
     "bd"
   ],
-  "author": "",
+  "author": "Creative-Md-Arif",
   "license": "MIT"
 }
