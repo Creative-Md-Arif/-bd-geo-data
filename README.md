@@ -9,7 +9,7 @@ Bangladesh all **divisions, districts, thanas & postcodes** — in both English 
 ## Install
 
 ```bash
-npm install bd-location-data
+npm install @bd-geo-data/bd-location-data
 ```
 
 ---
@@ -29,7 +29,7 @@ npm install bd-location-data
 ## Usage
 
 ```js
-const bd = require('bd-location-data');
+import bd from "@bd-geo-data/bd-location-data";
 ```
 
 ### বিভাগ / Divisions
